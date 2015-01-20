@@ -19,6 +19,12 @@ html {
 	text-size-adjust: 100%;
 }
 
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 *, *:before, *:after {
 	box-sizing: inherit;
 }
@@ -45,24 +51,28 @@ body {
 	position: relative;
 }
 
+.header i {
+	font-size: 2em;
+}
+
 .header .search {
 	float: left;
 	left: 1em;
-	top: 1.5em;
-	position: relative;
-
+	top: 0.5em;
+	position: absolute;
 }
 
 .header .burger {
 	float: right;
 	right: 1em;
-	bottom: 0.25em;
-	position: relative;
-
+	bottom: 0.5em;
+	position: absolute;
 }
 
 .landing {
 	width: 100%;
+	/*background: transparent url("../img/bg.jpg") no-repeat center top;
+	background-size: cover;*/
 }
 
 .blog-area {
@@ -82,5 +92,9 @@ body {
 	background-color: $pri-color;
 	text-align: center;
 	padding: 0.25em 0;
+	font-size: 1.25em;
 }
 
+.blog p {
+	color: $pri-type;
+}
