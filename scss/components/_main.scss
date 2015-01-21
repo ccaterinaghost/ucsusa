@@ -166,7 +166,7 @@ body.smr-open nav.slide-menu-right {
 .header .search {
 	float: left;
 	left: 1em;
-	top: 0.5em;
+	top: 0.25em;
 	position: absolute;
 }
 
@@ -239,7 +239,6 @@ body.smr-open nav.slide-menu-right {
 }
 
 .area2 h3 {
-	position: relative;
 	display: inline-block;
 	padding: 0.25em;
 	color: $pri-color;
@@ -247,5 +246,13 @@ body.smr-open nav.slide-menu-right {
 }
 
 .area2 p {
-	
+	margin: 0;
+	padding: 0;
+}
+
+.area2 h4 {
+	background-color: $pri-color;
+	color: $sec-type;
+	padding: 0.25em;
+	display: inline-block;
 }
