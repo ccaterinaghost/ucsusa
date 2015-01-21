@@ -172,6 +172,10 @@ body.smr-open nav.slide-menu-right {
 	position: absolute;
 }
 
+.header a:visited {
+	color: #000;
+}
+
 //  											Main
 
 .landing {
@@ -281,7 +285,7 @@ body.smr-open nav.slide-menu-right {
 
 //  											About Page
 
-.sixth {
+.nav-sixth {
 	display: inline-block;
 	float: left;
 	width: 16.66%;
@@ -318,6 +322,21 @@ body.smr-open nav.slide-menu-right {
 	margin-bottom: 2em;
 }
 
+.first {
+
+}
 .second {
+	background-color: #bbb;
+}
+.third {
+
+}
+.fourth {
+	background-color: #bbb;
+}
+.fifth {
+
+}
+.sixth {
 	background-color: #bbb;
 }
