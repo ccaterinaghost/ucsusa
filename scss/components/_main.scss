@@ -144,15 +144,22 @@ body.smr-open nav.slide-menu-right {
 	height: 4em;
 	position: relative;
 	background-color: $pri-color;
+	z-index: 3;
 }
+
+.header h1 img {
+	width: 80px;
+}
+
 
 .header h1 {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	top: 0.75em;
+	top: 0.33em;
 	position: relative;
 }
+
 
 .header i {
 	font-size: 2em;
@@ -192,7 +199,7 @@ body.smr-open nav.slide-menu-right {
 	height: 100%;
 	display: inline-block;
 
-	padding: 0 2.5% 5em;	
+	padding: 0 2.5% 1.5em;	
 }
 
 .blog:nth-child(n+2) {
@@ -209,6 +216,28 @@ body.smr-open nav.slide-menu-right {
 
 .blog p {
 	color: $pri-type;
+}
+
+.blog a {
+	display: block;
+	text-decoration: none;
+}
+
+.button {
+	text-align: center;
+	background-color: #bbb;
+	width: 100px;
+	height: 50px;
+	display: block;
+	border-radius: 10px;
+
+	margin: 0 auto;
+}
+
+.button,
+.button:visited {
+	font-size: 2.5em;
+	color: #333;
 }
 
 //  											Graph
@@ -265,6 +294,7 @@ body.smr-open nav.slide-menu-right {
 
 .informed {
 	position: relative;
+	overflow: hidden;
 	margin-bottom: -0.25em;
 	width: 100%;
 	/*background: transparent url("../img/bg.jpg") no-repeat center top;
@@ -288,7 +318,7 @@ body.smr-open nav.slide-menu-right {
 .nav-sixth {
 	display: inline-block;
 	float: left;
-	width: 16.66%;
+	width: 16.6666%;
 	border: 2px solid #000;
 }
 
