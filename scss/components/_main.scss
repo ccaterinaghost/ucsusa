@@ -24,25 +24,118 @@ html {
 }
 
 body {
-	margin: 0;
-	padding: 0;
+  @include zero;
+  // Hides close button if there is no js
+  &.noscript .close-btn,
+  &.noscript .toggle-btn {
+    display: none;
+  }
 }
 
 section {
-	padding: 0;
-	margin: 0;
+	@include zero;
 }
 
 //												Nav
 
+header {
+  padding: 0 1em;
+  position: relative;
+}
 
+.toggle-btn {
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
+.navigation ul {
+  @include zero;
+  li {
+      list-style-type: none;
+      &:first-child {
+        border-top: 1px solid $pri-type;
+      }
+      a {
+        display: block;
+        padding: 0.5em 1em;
+        text-align: center;
+        border-bottom: 1px solid $pri-type;
+        text-decoration: none;
+      }
+    }// li
+}//navigation ul
+
+.toggle-btn,
+.close-btn {
+  text-color: $sec-type;
+  height: 40px;
+  width: 40px;
+  span {
+    @include hide-text;
+  }//span
+  i {
+    padding: 0.5em;
+    border: 1px solid $sec-type;
+    border-radius: 10px;
+  }
+}//btn
+
+.close-btn {
+  margin: 1em;
+}
+
+@media only screen and (max-width: 60em){
+  .site-wrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 100;
+    .sliding-canvas{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateX(0);
+      @include ease(all, 300ms, ease-in-out);
+    }
+    &[data-state="slide-open"] .sliding-canvas{
+      transform: translateX(-30%);
+    }
+
+    &[data-state="slide-open"] {
+      overflow: visible;
+    }
+  }
+
+.slide-menu{
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: -30%;
+  min-height: 600px;
+}
+}
+
+@media only screen and (min-width: 60em){
+  .toggle-btn,
+  .close-btn{
+    display: none;
+  }
+}
+
+
+body.noscript .slide-menu{
+  position: static;
+  right: auto;
+}
 
 
 //  											Header
 
 .header { 
-	padding: 0;
-	margin: 0;
+	@include zero;
 	width: 100%;
 	height: 4em;
 	position: relative;
@@ -57,8 +150,7 @@ section {
 
 .header h1 {
 	text-align: center;
-	margin: 0;
-	padding: 0;
+	@include zero;
 	top: 0.33em;
 	position: relative;
 }
@@ -182,8 +274,7 @@ section {
 }
 
 .area2 p {
-	margin: 0;
-	padding: 0;
+	@include zero;
 }
 
 .area2 h4 {
@@ -227,8 +318,7 @@ section {
 
 .footer ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	@include zero;
 	margin-right: 1em;
 }
 
