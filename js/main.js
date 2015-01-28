@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Needs latest version of jQuery to run
 
 $(function() {
@@ -17,3 +18,5 @@ function toggleNav() {
     $('.site-wrapper').attr('data-state', 'slide-closed');
   }
 }
+=======
+>>>>>>> FETCH_HEAD

@@ -48,6 +48,7 @@ body {
 
 /* line 35, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 section {
+<<<<<<< HEAD
   margin: 0;
   padding: 0; }
 
@@ -154,6 +155,12 @@ body.noscript .slide-menu {
   right: auto; }
 
 /* line 143, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+  padding: 0;
+  margin: 0; }
+
+/* line 42, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .header {
   margin: 0;
   padding: 0;
@@ -163,11 +170,19 @@ body.noscript .slide-menu {
   background-color: #e67e22;
   z-index: 3; }
 
+<<<<<<< HEAD
 /* line 152, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .header h1 img {
   width: 80px; }
 
 /* line 157, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 52, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.header h1 img {
+  width: 80px; }
+
+/* line 57, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .header h1 {
   text-align: center;
   margin: 0;
@@ -175,6 +190,7 @@ body.noscript .slide-menu {
   top: 0.25em;
   position: relative; }
 
+<<<<<<< HEAD
 /* line 164, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .donate {
   font-size: 2em;
@@ -188,12 +204,41 @@ body.noscript .slide-menu {
   color: #000; }
 
 /* line 181, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 66, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.header i {
+  font-size: 2em; }
+
+/* line 70, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.header .donate {
+  float: left;
+  left: 1em;
+  top: 0.33em;
+  position: absolute; }
+
+/* line 77, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.header .burger {
+  float: right;
+  right: 1em;
+  top: 0.33em;
+  position: absolute; }
+
+/* line 84, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.header a:visited {
+  color: #000; }
+
+/* line 90, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .landing {
   width: 100%
   /*background: transparent url("../img/bg.jpg") no-repeat center top;
 	background-size: cover;*/ }
 
+<<<<<<< HEAD
 /* line 187, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 96, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .blog {
   margin: 0;
   float: left;
@@ -203,28 +248,48 @@ body.noscript .slide-menu {
   display: inline-block;
   padding: 0 2.5% 1.5em; }
 
+<<<<<<< HEAD
 /* line 198, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 107, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .blog:nth-child(n+2) {
   border-left: 3px solid #eee;
   height: 100%; }
 
+<<<<<<< HEAD
 /* line 203, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 112, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .blog h2 {
   background-color: #e67e22;
   text-align: center;
   padding: 0.25em 0;
   font-size: 1.25em; }
 
+<<<<<<< HEAD
 /* line 210, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog p {
   color: #fff; }
 
 /* line 214, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 119, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.blog p {
+  color: #fff; }
+
+/* line 123, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .blog a {
   display: block;
   text-decoration: none; }
 
+<<<<<<< HEAD
 /* line 219, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 128, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .button {
   text-align: center;
   background-color: #bbb;
@@ -234,60 +299,100 @@ body.noscript .slide-menu {
   border-radius: 10px;
   margin: 0 auto; }
 
+<<<<<<< HEAD
 /* line 231, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 140, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .button, .button:visited {
   font-size: 2.5em;
   color: #333; }
 
+<<<<<<< HEAD
 /* line 238, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 147, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .graph-area {
   background-color: #eee;
   float: left;
   width: 100%; }
 
+<<<<<<< HEAD
 /* line 244, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 153, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area1 {
   width: 40%;
   float: left;
   text-align: right; }
 
+<<<<<<< HEAD
 /* line 250, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 159, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area1 img {
   padding-left: 5%;
   width: 100%; }
 
+<<<<<<< HEAD
 /* line 255, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 164, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .graph {
   margin: 5em 0;
   position: relative; }
 
+<<<<<<< HEAD
 /* line 260, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 169, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area2 {
   margin: 5em 0 0;
   width: 60%;
   float: left;
   padding: 0 10%; }
 
+<<<<<<< HEAD
 /* line 267, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 176, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area2 h3 {
   display: inline-block;
   padding: 0.25em;
   color: #e67e22;
   background-color: #000; }
 
+<<<<<<< HEAD
 /* line 274, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 183, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area2 p {
   margin: 0;
   padding: 0; }
 
+<<<<<<< HEAD
 /* line 278, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 188, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .area2 h4 {
   background-color: #e67e22;
   color: #000;
   padding: 0.25em;
   display: inline-block; }
 
+<<<<<<< HEAD
 /* line 287, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 197, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .informed {
   position: relative;
   overflow: hidden;
@@ -296,11 +401,19 @@ body.noscript .slide-menu {
   /*background: transparent url("../img/bg.jpg") no-repeat center top;
 	background-size: cover;*/ }
 
+<<<<<<< HEAD
 /* line 296, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed img {
   width: 100%; }
 
 /* line 302, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 206, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.informed img {
+  width: 100%; }
+
+/* line 212, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .footer {
   width: 100%;
   height: 3em;
@@ -308,53 +421,85 @@ body.noscript .slide-menu {
   overflow: none;
   text-align: left; }
 
+<<<<<<< HEAD
 /* line 310, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 220, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .footer-logo {
   float: left;
   height: 2.5em;
   margin: 0.25em;
   margin-left: 1em; }
 
+<<<<<<< HEAD
 /* line 317, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 227, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-right: 1em; }
 
+<<<<<<< HEAD
 /* line 323, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 234, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .social {
   border-radius: 50px;
   float: right;
   width: 40px;
   margin: 5px; }
 
+<<<<<<< HEAD
 /* line 332, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 243, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .nav-sixth {
   display: inline-block;
   float: left;
   width: 16.6666%;
   border: 2px solid #000; }
 
+<<<<<<< HEAD
 /* line 339, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news div {
   text-align: center; }
 
 /* line 343, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 250, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.news div {
+  text-align: center; }
+
+/* line 254, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .news {
   width: 100%;
   padding: 0 20%;
   background-color: #999;
   padding-bottom: 3em; }
 
+<<<<<<< HEAD
 /* line 350, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 261, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .news h2 {
   padding: 0.5em;
   display: inline-block;
   width: 100%;
   background-color: #e67e22; }
 
+<<<<<<< HEAD
 /* line 357, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 268, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .news h3 {
   padding: 0.5em;
   margin: 0;
@@ -362,6 +507,7 @@ body.noscript .slide-menu {
   color: #e67e22;
   display: inline-block; }
 
+<<<<<<< HEAD
 /* line 365, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p {
   margin-bottom: 2em; }
@@ -375,6 +521,21 @@ body.noscript .slide-menu {
   background-color: #bbb; }
 
 /* line 384, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+=======
+/* line 276, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.news p {
+  margin-bottom: 2em; }
+
+/* line 283, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.second {
+  background-color: #bbb; }
+
+/* line 289, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.fourth {
+  background-color: #bbb; }
+
+/* line 295, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+>>>>>>> FETCH_HEAD
 .sixth {
   background-color: #bbb; }
 
@@ -428,6 +589,7 @@ body.noscript .slide-menu {
 /* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/icons */
 .icon-plus-squared:before {
   content: '\e803'; }
+<<<<<<< HEAD
 
 /* '' */
 @font-face {
@@ -480,5 +642,7 @@ body.noscript .slide-menu {
 /* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
+=======
+>>>>>>> FETCH_HEAD
 
-/* '' */
+/* '' */
