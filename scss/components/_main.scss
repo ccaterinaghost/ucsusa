@@ -43,10 +43,16 @@ header {
   position: relative;
 }
 
+header ul li a,
+header ul li a:visited {
+	text-decoration: none;
+	color: $pri-type;
+}
+
 .toggle-btn {
   position: absolute;
   right: 1em;
-  top: 0;
+  top: 1.25em;
 }
 
 .navigation ul {
@@ -62,8 +68,8 @@ header {
         text-align: center;
         border-bottom: 1px solid $pri-type;
         text-decoration: none;
-      }
-    }// li
+      }//a
+    }//li
 }//navigation ul
 
 .toggle-btn,
@@ -78,7 +84,7 @@ header {
     padding: 0.5em;
     border: 1px solid $sec-type;
     border-radius: 10px;
-  }
+  }//i
 }//btn
 
 .close-btn {
@@ -111,7 +117,7 @@ header {
   position: absolute;
   width: 30%;
   height: 100%;
-  top: 0;
+  top: 1.25em;
   bottom: 0;
   right: -30%;
   min-height: 600px;
@@ -151,30 +157,22 @@ body.noscript .slide-menu{
 .header h1 {
 	text-align: center;
 	@include zero;
-	top: 0.33em;
+	top: 0.25em;
 	position: relative;
 }
 
-
-.header i {
+.donate {
 	font-size: 2em;
-}
-
-.header .donate {
 	float: left;
-	left: 1em;
-	top: 0.25em;
+	left: 0.5em;
+	top: 0.33em;
 	position: absolute;
 }
 
-.header .burger {
-	float: right;
-	right: 1em;
-	bottom: 0.5em;
-	position: absolute;
-}
-
-.header a:visited {
+.toggle-btn,
+.close-btn,
+.toggle-btn:visited,
+.close-btn:visited {
 	color: #000;
 }
 
