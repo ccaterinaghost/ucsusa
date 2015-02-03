@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /ucsusa
 exclude: ['README.md']
+permalink: pretty
