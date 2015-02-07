@@ -37,18 +37,20 @@ section {
 	@include zero;
 }
 
-//  											Header
+//  																		Header
 
 .header { 
 	@include zero;
 	width: 100%;
 	height: 4em;
-	position: fixed;
+	position: absolute;
 	background-color: $pri-color;
 	z-index: 3;
 }
 
 .header h1 img {
+	position: absolute;
+	top: 0.33em;
 	width: 80px;
 }
 
@@ -57,15 +59,18 @@ section {
 	text-align: center;
 	@include zero;
 	top: 0.25em;
-	position: relative;
+
 }
 
-.donate {
-	font-size: 2em;
-	float: left;
-	left: 0.5em;
-	top: 0.33em;
-	position: absolute;
+.donate-text {
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 0.5em 0 0 0.5em;
+	padding: 0.5em 0.75em;
+	border-radius: 5px;
+	font-weight: 300;
+	color: $pri-type;
+	background-color: $pri-bg;
 }
 
 .toggle-btn,
@@ -75,22 +80,22 @@ section {
 	color: #000;
 }
 
-header {
+.header {
   padding: 0 1em;
 }
 
-header ul li a,
-header ul li a:visited {
+.header ul li a,
+.header ul li a:visited {
 	text-decoration: none;
 	color: $pri-type;
 }
 
-//												Nav
+//																			Nav
 
 .toggle-btn {
   position: absolute;
   right: 1em;
-  top: 1.25em;
+  top: 0.75em;
 }
 
 .navigation ul {
@@ -108,24 +113,24 @@ header ul li a:visited {
     }//li
 }//navigation ul
 
+.i-menu,
+.i-close {
+	font-size: 2em;
+}
+
+.i-close {
+	color: $pri-color;
+}
+
 .toggle-btn,
 .close-btn {
-  text-color: $sec-type;
+  color: $sec-type;
   height: 40px;
   width: 40px;
   span {
     @include hide-text;
   }//span
-  i {
-    padding: 0.5em;
-    border: 1px solid $sec-type;
-    border-radius: 10px;
-  }//i
 }//btn
-
-.close-btn {
-  margin: 1em;
-}
 
 .site-wrapper{
 	position: relative;
@@ -157,20 +162,24 @@ header ul li a:visited {
 	  position: absolute;
 	  width: 30%;
 	  height: 100%;
-	  top: 1.25em;
+	  top: 0;
+	  padding: 0.75em 2%;
 	  bottom: 0;
 	  right: -30%;
 	  min-height: 600px;
 	}
 }
 
+.navigation ul li .donate-color {
+	color: $pri-color;
+}
 
 body.noscript .slide-menu{
   position: static;
   right: auto;
 }
 
-//  											Main
+//  																			Main
 
 .landing {
 	width: 100%;
@@ -183,15 +192,14 @@ body.noscript .slide-menu{
 	float: left;
 	background-color: $pri-bg;
 	width: 25%;
-	height: 100%;
+	height: 300px;
 	display: inline-block;
 
-	padding: 0 2.5% 1.5em;	
+	padding: 2em 2.5% 1.5em;	
 }
 
 .blog:nth-child(n+2) {
 	border-left: 3px solid $accent;
-	height: 100%;
 }
 
 .blog h2 {
@@ -252,15 +260,15 @@ body.noscript .slide-menu{
 }
 
 .area2 {
-	margin: 5em 0 0;
+	margin: 4em 0 0;
 	width: 60%;
 	float: left;
-	padding: 0 10%;
+	padding: 0 15% 0 10%;
 }
 
 .area2 h3 {
 	display: inline-block;
-	padding: 0.25em;
+	padding: 0.5em;
 	color: $pri-color;
 	background-color: #000;
 }
@@ -272,11 +280,11 @@ body.noscript .slide-menu{
 .area2 h4 {
 	background-color: $pri-color;
 	color: $sec-type;
-	padding: 0.25em;
+	padding: 0.50em;
 	display: inline-block;
 }
 
-//  											Informed
+//  																			Informed
 
 .informed {
 	position: relative;
@@ -291,7 +299,7 @@ body.noscript .slide-menu{
 	width: 100%;
 }
 
-//  											Footer
+//  																			Footer
 
 .footer {
 	width: 100%;
@@ -321,7 +329,24 @@ body.noscript .slide-menu{
 	margin: 5px;
 }
 
-//  											About Page
+//  																				About Page
+
+ul li {
+	margin-bottom: 0.5em;
+}
+
+ul li a,
+ul li a:visited {
+	color: $sec-bg;
+}
+
+ul li a:hover {
+	color: $pri-color;
+}
+
+.nav-about {
+	padding-top: 4em;
+}
 
 .nav-sixth {
 	display: inline-block;
@@ -360,21 +385,8 @@ body.noscript .slide-menu{
 	margin-bottom: 2em;
 }
 
-.first {
-
-}
-.second {
-	background-color: #bbb;
-}
-.third {
-
-}
-.fourth {
-	background-color: #bbb;
-}
-.fifth {
-
-}
+.second,
+.fourth,
 .sixth {
 	background-color: #bbb;
 }

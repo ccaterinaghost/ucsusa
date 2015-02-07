@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}} • {% endif %}UCS • USA</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
 </head>
 <body class="noscript">
   <div class="site-wrapper" data-state="slide-closed">
     <div class="sliding-canvas">
 
-      <header class="header">
+      <section class="header">
 
-        <i class="donate icon-plus-squared"></i>
+        <a href="{{site.baseurl}}/donate/"><h3 class="donate-text">Donate</h3></a>
 
-        <h1><a href="{{site.baseurl}}/index/"><img src="fonts/logo-black.svg" alt=""></a></h1>
+        <h1><a href="{{site.baseurl}}/index/"><img src="{{site.baseurl}}/fonts/logo-black.svg" alt=""></a></h1>
 
         <a class="toggle-btn" href="#"><i class="i-menu"></i><span>Menu</span></a>
 
@@ -22,29 +22,30 @@
           <a class="close-btn" href="#"><i class="i-close"></i><span>Close</span></a>
 
           <ul>
-              <li><a href="{{site.baseurl}}/index/">Home</a></li>
+              <li><a href="{{site.baseurl}}/">Home</a></li>
               <li><a href="{{site.baseurl}}/ourwork/">Our Work</a></li>
               <li><a href="{{site.baseurl}}/about/">About</a></li>
               <li><a href="{{site.baseurl}}/takeaction/">Take Action</a></li>
               <li><a href="{{site.baseurl}}/subcribe/">Subscribe</a></li>
+              <li><a href="{{site.baseurl}}/donate/" class="donate-color">Donate</a></li>
           </ul>
 
         </nav>
 
-      </header><!--header-->
+      </section><!--header-->
 
   		{{content}}
 
   	  <section class="footer">
 
-  		<img class="footer-logo" src="{{site.baseurl}}/fonts/logo-black.svg" alt="">
+    		<img class="footer-logo" src="{{site.baseurl}}/fonts/logo-black.svg" alt="">
 
-  		<ul>
-  			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
-  			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
-  			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
-  			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
-  		</ul>
+    		<ul>
+    			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
+    			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
+    			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
+    			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
+    		</ul>
 
   	  </section><!--footer-->
 
