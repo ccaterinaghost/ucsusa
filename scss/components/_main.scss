@@ -37,6 +37,12 @@ section {
 	@include zero;
 }
 
+.to-top {
+	position: absolute;
+	right: 1em;
+	bottom: 4em;
+}
+
 //  																		Header
 
 .header { 
@@ -331,16 +337,16 @@ body.noscript .slide-menu{
 
 //  																				About Page
 
-ul li {
+.news li {
 	margin-bottom: 0.5em;
 }
 
-ul li a,
-ul li a:visited {
+.news a,
+.news a:visited {
 	color: $sec-bg;
 }
 
-ul li a:hover {
+.news a:hover {
 	color: $pri-color;
 }
 
@@ -363,7 +369,7 @@ ul li a:hover {
 	width: 100%;
 	padding: 0 20%;
 	background-color: #999;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 }
 
 .news h2 {

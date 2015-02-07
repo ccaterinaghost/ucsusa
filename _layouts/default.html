@@ -9,7 +9,7 @@
   <div class="site-wrapper" data-state="slide-closed">
     <div class="sliding-canvas">
 
-      <section class="header">
+      <section class="header" id="top">
 
         <a href="{{site.baseurl}}/donate/"><h3 class="donate-text">Donate</h3></a>
 
@@ -26,7 +26,7 @@
               <li><a href="{{site.baseurl}}/ourwork/">Our Work</a></li>
               <li><a href="{{site.baseurl}}/about/">About</a></li>
               <li><a href="{{site.baseurl}}/takeaction/">Take Action</a></li>
-              <li><a href="{{site.baseurl}}/subcribe/">Subscribe</a></li>
+              <li><a href="{{site.baseurl}}/subscribe/">Subscribe</a></li>
               <li><a href="{{site.baseurl}}/donate/" class="donate-color">Donate</a></li>
           </ul>
 
@@ -36,9 +36,13 @@
 
   		{{content}}
 
+      <a href="#top" class="to-top">
+        <img src="http://placehold.it/100x50&text=To-Top" alt="">
+      </a>
+
   	  <section class="footer">
 
-    		<img class="footer-logo" src="{{site.baseurl}}/fonts/logo-black.svg" alt="">
+    		<a href="{{site.baseurl}}/"><img class="footer-logo" src="{{site.baseurl}}/fonts/logo-black.svg" alt="Footer Logo"></a>
 
     		<ul>
     			<li><a href="#"><img class="social" src="http://placehold.it/50x50" alt=""></a></li>
