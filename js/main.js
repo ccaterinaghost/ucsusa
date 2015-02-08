@@ -18,6 +18,8 @@ function toggleNav() {
   }
 }
 
+//smooth scrolling
+
 $('a[href^="#"]').on('click', function(event) {
     var target = $( $(this).attr('href') );
     if( target.length ) {
@@ -26,4 +28,15 @@ $('a[href^="#"]').on('click', function(event) {
             scrollTop: target.offset().top
         }, 500);
     }
+});
+
+// use escape to close nav ... taken from https://scotch.io/tutorials/off-canvas-menus-with-css3-transitions-and-transforms
+
+$(document).keyup(function(e) {
+  if (e.keyCode == 27) {
+    if ($('.site-wrapper').hasClass('slide-closed')) {
+      // Assuming you used the function I made from the demo
+      toggleNav();
+    }
+  } 
 });

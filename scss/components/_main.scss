@@ -10,7 +10,6 @@ html {
 	box-sizing: border-box;
 
 	background-color: $pri-bg;
-
 	font-family: $pri-font;
 
 	-moz-text-size-adjust: 100%;
@@ -41,6 +40,13 @@ section {
 	position: absolute;
 	right: 1em;
 	bottom: 4em;
+	border: 1px solid #000;
+	opacity: 0.25;
+	@include transition(100ms, ease);
+}
+
+.to-top:hover {
+	opacity: 0.9;
 }
 
 //  																		Header
@@ -77,6 +83,12 @@ section {
 	font-weight: 300;
 	color: $pri-type;
 	background-color: $pri-bg;
+	@include transition(300ms, ease-in-out);
+}
+
+.donate-text:hover {
+	color: $pri-bg;
+	background-color: $pri-type;
 }
 
 .toggle-btn,
@@ -88,12 +100,6 @@ section {
 
 .header {
   padding: 0 1em;
-}
-
-.header ul li a,
-.header ul li a:visited {
-	text-decoration: none;
-	color: $pri-type;
 }
 
 //																			Nav
@@ -176,7 +182,14 @@ section {
 	}
 }
 
-.navigation ul li .donate-color {
+.header ul li a,
+.header ul li a:visited {
+	text-decoration: none;
+	color: $pri-type;
+	@include transition(300ms, ease);
+}
+
+.header ul li a:hover {
 	color: $pri-color;
 }
 
@@ -226,19 +239,26 @@ body.noscript .slide-menu{
 
 .button {
 	text-align: center;
-	background-color: #bbb;
+	background-color: $button;
 	width: 100px;
 	height: 50px;
 	display: block;
 	border-radius: 10px;
-
+	font-weight: 800;
 	margin: 0 auto;
+	padding-bottom: 1.4em;
+	@include transition(200ms, ease);
 }
 
 .button,
 .button:visited {
 	font-size: 2.5em;
-	color: #333;
+	color: $button-text;
+}
+
+.button:hover {
+	color: $button;
+	background-color: $button-text;
 }
 
 //  											Graph
@@ -290,7 +310,7 @@ body.noscript .slide-menu{
 	display: inline-block;
 }
 
-//  																			Informed
+//  																														Informed
 
 .informed {
 	position: relative;
@@ -305,7 +325,7 @@ body.noscript .slide-menu{
 	width: 100%;
 }
 
-//  																			Footer
+//  																																	Footer
 
 .footer {
 	width: 100%;
@@ -335,7 +355,7 @@ body.noscript .slide-menu{
 	margin: 5px;
 }
 
-//  																				About Page
+//  																														About Pages
 
 .news li {
 	margin-bottom: 0.5em;
@@ -373,6 +393,7 @@ body.noscript .slide-menu{
 }
 
 .news h2 {
+	letter-spacing: 1px;
 	padding: 0.5em;
 	display: inline-block;
 	width: 100%;
@@ -380,19 +401,41 @@ body.noscript .slide-menu{
 }
 
 .news h3 {
+	letter-spacing: 1px;
 	padding: 0.5em;
-	margin: 0;
+	margin: 0.5em 0 0;
 	background-color: #333;
 	color: $pri-color;
 	display: inline-block;
 }
 
+.news h4 {
+	@include zero;
+	margin-top: 0.5em;
+}
+
 .news p {
-	margin-bottom: 2em;
+	margin: 0.5em 0;
+	line-height: 130%;
 }
 
 .second,
 .fourth,
 .sixth {
-	background-color: #bbb;
+	background-color: $button;
+}
+
+.get-involved {
+	background-color: $button-text;
+	color: $pri-type;
+	text-align: center;
+}
+
+.involve-link,
+.involve-link:visited {
+	color: $pri-type;
+}
+
+.involve-link:hover {
+	color: $pri-color;
 }
