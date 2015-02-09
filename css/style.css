@@ -357,43 +357,45 @@ body.noscript .slide-menu {
   border-radius: 50px;
   float: right;
   width: 40px;
-  margin: 5px; }
+  margin: 5px;
+  color: #fff;
+  font-size: 2em; }
 
-/* line 360, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 362, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news li {
   margin-bottom: 0.5em; }
 
-/* line 365, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 367, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news a, .news a:visited {
   color: #2b2b2b; }
 
-/* line 369, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 371, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news a:hover {
   color: #e67e22; }
 
-/* line 373, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 375, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-about {
   padding-top: 4em; }
 
-/* line 377, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 379, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth {
   display: inline-block;
   float: left;
   width: 16.6666%;
   border: 2px solid #000; }
 
-/* line 384, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 386, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news div {
   text-align: center; }
 
-/* line 388, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 390, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news {
   width: 100%;
   padding: 0 20%;
   background-color: #999;
   padding-bottom: 2em; }
 
-/* line 395, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 397, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h2 {
   letter-spacing: 1px;
   padding: 0.5em;
@@ -401,7 +403,7 @@ body.noscript .slide-menu {
   width: 100%;
   background-color: #e67e22; }
 
-/* line 403, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 405, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h3 {
   letter-spacing: 1px;
   padding: 0.5em;
@@ -410,39 +412,39 @@ body.noscript .slide-menu {
   color: #e67e22;
   display: inline-block; }
 
-/* line 412, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 414, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h4 {
   margin: 0;
   padding: 0;
   margin-top: 0.5em; }
 
-/* line 417, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 419, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p {
   margin: 0.5em 0;
   line-height: 130%; }
 
-/* line 424, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 426, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .second, .fourth, .sixth {
   background-color: #bbb; }
 
-/* line 428, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 430, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved {
   background-color: #333;
   color: #fff;
   text-align: center; }
 
-/* line 435, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 437, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link, .involve-link:visited {
   color: #fff; }
 
-/* line 439, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 441, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link:hover {
   color: #e67e22; }
 
 @font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot?91741979');
-  src: url('../fonts/icons.eot?91741979#iefix') format('embedded-opentype'), url('../fonts/icons.woff?91741979') format('woff'), url('../fonts/icons.ttf?91741979') format('truetype'), url('../fonts/icons.svg?91741979#fontello') format('svg');
+  font-family: 'social';
+  src: url('../fonts/social.eot?76183535');
+  src: url('../fonts/social.eot?76183535#iefix') format('embedded-opentype'), url('../fonts/social.woff?76183535') format('woff'), url('../fonts/social.ttf?76183535') format('truetype'), url('../fonts/social.svg?76183535#fontello') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -452,13 +454,13 @@ body.noscript .slide-menu {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?91741979#fontello') format('svg');
+    src: url('../font/fontello.svg?76183535#fontello') format('svg');
   }
 }
 */
-/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/icons */
+/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "icons";
+  font-family: "social";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -481,16 +483,16 @@ body.noscript .slide-menu {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/icons */
-.icon-menu:before {
+/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social */
+.icon-facebook-squared:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/icons */
-.icon-plus-squared:before {
-  content: '\e803'; }
+/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social */
+.icon-twitter-squared:before {
+  content: '\e801'; }
 
-/* '' */
+/* '' */
 @font-face {
   font-family: 'push-menu-custom';
   src: url('../fonts/push-menu-custom.eot?95902514');
