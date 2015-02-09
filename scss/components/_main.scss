@@ -7,8 +7,6 @@ html {
 
 	background-color: $pri-bg;
 	font-family: $pri-font;
-
-	text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
@@ -115,7 +113,7 @@ h1 span {
       a {
         display: block;
         padding: 0.5em;
-        padding-left: 2% 0;
+        padding-left: 2%;
         text-decoration: none;
       }//a
     }//li
