@@ -170,7 +170,7 @@ section {
 	  }
 	}
 	 
-	.slide-menu{
+	.slide-menu {
 	  position: absolute;
 	  width: 30%;
 	  height: 100%;
@@ -196,6 +196,30 @@ section {
 body.noscript .slide-menu{
   position: static;
   right: auto;
+}
+
+@media #{$mobile} {
+	.site-wrapper{
+		&[data-state="slide-open"] .sliding-canvas{
+		  transform: translateX(-100%);
+		}
+		.slide-menu {
+		  width: 100%;
+		  right: -100%;
+		}
+	}
+}
+
+@media #{$mobile-landscape} {
+	.site-wrapper{
+		&[data-state="slide-open"] .sliding-canvas {
+	  	transform: translateX(-30%);
+		}
+		.slide-menu {
+		  width: 30%;
+		  right: -30%;
+		}
+	}
 }
 
 //  																			Main
