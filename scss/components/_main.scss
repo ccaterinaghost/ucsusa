@@ -1,5 +1,7 @@
 // Main
 
+@viewport { width: device-width; scale: 1; }
+
 html {
 	box-sizing: border-box;
 
@@ -42,6 +44,10 @@ section {
 
 //  																		Header
 
+h1 span {
+	@include hide-text;
+}
+
 .header { 
 	@include zero;
 	width: 100%;
@@ -62,7 +68,6 @@ section {
 	text-align: center;
 	@include zero;
 	top: 0.25em;
-
 }
 
 .donate-text {
