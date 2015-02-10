@@ -28,26 +28,6 @@ section {
 	position: relative;
 }
 
-.to-top {
-	text-decoration: none;
-}
-
-.to-top span {
-	color: $pri-bg;
-	border: 4px solid $pri-bg;
-	padding: 0.75em;
-	bottom: 1.5em;
-	position: absolute;
-	right: 1.5em;
-	font-weight: 700;
-	@include transition(100ms, ease);
-}
-
-.to-top span:hover {
-	color: $pri-color;
-	border: 4px solid $pri-color;
-}
-
 //  																		Header
 
 h1 span {
@@ -89,6 +69,7 @@ h1 span {
 .donate-text:hover {
 	color: $pri-bg;
 	background-color: $pri-type;
+	font-weight: 400;
 }
 
 .toggle-btn,
@@ -147,18 +128,23 @@ h1 span {
     }//li
 }//navigation ul
 
-.i-menu,
-.i-close {
+.i-menu {
 	font-size: 2em;
+	color: $pri-bg;
 }
 
 .i-close {
+	font-size: 2em;
 	color: $pri-color;
+}
+
+.i-menu:hover,
+.i-close:hover {
+	color: $pri-type;
 }
 
 .toggle-btn,
 .close-btn {
-  color: $sec-type;
   height: 40px;
   width: 40px;
   span {
@@ -276,6 +262,7 @@ body.noscript .slide-menu{
 
 .blog p {
 	color: $pri-type;
+	font-size: 1em;
 }
 
 .blog a {
@@ -468,6 +455,11 @@ body.noscript .slide-menu{
 	float: left;
 	width: 16.6666%;
 	border: 2px solid #000;
+	@include transition(200ms, ease-in-out);
+}
+
+.nav-sixth:hover {
+	padding-top: 2em;
 }
 
 .news h2 {
@@ -516,6 +508,26 @@ body.noscript .slide-menu{
 	h3 {
 		background-color: $pri-bg;
 	}
+}
+
+.to-top {
+	text-decoration: none;
+}
+
+.to-top span {
+	color: $pri-bg;
+	border: 4px solid $pri-bg;
+	padding: 0.75em;
+	bottom: 1.5em;
+	position: absolute;
+	right: 1.5em;
+	font-weight: 700;
+	@include transition(100ms, ease);
+}
+
+.to-top span:hover {
+	color: $pri-color;
+	border: 4px solid $pri-color;
 }
 
 //																															GET INVOLVED
