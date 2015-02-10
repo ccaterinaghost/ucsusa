@@ -246,6 +246,7 @@ body.noscript .slide-menu{
 	background-color: $pri-bg;
 	height: 300px;
 	display: inline-block;	
+	position: relative;
 }
 
 .blog:nth-child(n+2) {
@@ -269,6 +270,12 @@ body.noscript .slide-menu{
 	text-decoration: none;
 }
 
+.button-align {
+	position: absolute;
+	bottom: 3em;
+	margin-left: 25%;
+}
+
 .button {
 	text-align: center;
 	background-color: $button;
@@ -278,7 +285,6 @@ body.noscript .slide-menu{
 	border-radius: 10px;
 	font-weight: 800;
 	margin: 0 auto;
-	padding-bottom: 1.4em;
 	@include transition(200ms, ease);
 }
 
