@@ -419,13 +419,23 @@ body.noscript .slide-menu{
 	}
 }
 
-@media #{$tablet-landscape} {
+@media #{$mobile-landscape} {
 	.footer .small-logo {
 		display: none;
 	}
 	.footer .large-logo {
 		width: 400px;
 		display: inline-block;
+	}
+}
+
+@media #{$tablet-landscape} {
+	.footer .small-logo {
+		display: inline-block;
+		width: 60px;
+	}
+	.footer .large-logo {
+		display: none;
 	}
 }
 
