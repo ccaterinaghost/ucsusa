@@ -43,7 +43,7 @@ section {
 //  																		Header
 
 h1 span {
-	@include hide-text;
+	@include element-invisible;
 }
 
 .header { 
@@ -55,17 +55,15 @@ h1 span {
 	z-index: 3;
 }
 
-.header h1 img {
-	position: absolute;
-	top: 0.33em;
-	width: 80px;
-}
-
-
 .header h1 {
 	text-align: center;
 	@include zero;
 	top: 0.25em;
+}
+
+.header h1 img {
+	position: absolute;
+	top: 0.33em;
 }
 
 .donate-text {
@@ -94,6 +92,28 @@ h1 span {
 
 .header {
   padding: 0 1em;
+}
+
+@media #{$mobile} {
+	.header .small-logo {
+		display: inline-block;
+		width: 80px;
+		margin-left: -40px;
+	}
+	.header .large-logo {
+		display: none;
+	}
+}
+
+@media #{$tablet-landscape} {
+	.header .small-logo {
+		display: none;
+	}
+	.header .large-logo {
+		width: 500px;
+		margin-left: -250px;
+		display: inline-block;
+	}
 }
 
 //																			Nav
@@ -373,6 +393,26 @@ body.noscript .slide-menu{
 	margin: 5px;
 	color: $pri-type;
 	font-size: 2em;
+}
+
+@media #{$mobile} {
+	.footer .small-logo {
+		display: inline-block;
+		width: 60px;
+	}
+	.footer .large-logo {
+		display: none;
+	}
+}
+
+@media #{$tablet-landscape} {
+	.footer .small-logo {
+		display: none;
+	}
+	.footer .large-logo {
+		width: 400px;
+		display: inline-block;
+	}
 }
 
 //  																														About Pages
