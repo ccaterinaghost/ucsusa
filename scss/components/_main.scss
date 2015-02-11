@@ -255,6 +255,11 @@ body.noscript .slide-menu{
 	padding: 20em 0;
 }
 
+.blog-area {
+	display: inline-block;
+	overflow: hidden;
+}
+
 .blog {
 	margin: 0; 
 	float: left;
@@ -331,11 +336,13 @@ body.noscript .slide-menu{
 		padding: 2em 5% 1.5em;
 		&:nth-child(n+1) {
 			border-left: none;
-			border-bottom: 3px solid $accent;
 			border-top: none;
 		}
 		&:nth-child(even) {
 			border-left: 3px solid $accent;
+		}
+		&:nth-child(n+3) {
+			border-top: 3px solid $accent;
 		}
 	}
 
@@ -347,6 +354,9 @@ body.noscript .slide-menu{
 		padding: 2em 2.5% 1.5em;
 		&:nth-child(n+2) {
 			border-left: 3px solid $accent;
+		}
+		&:nth-child(n+1) {
+			border-top: none;
 		}
 	}
 }
@@ -409,16 +419,11 @@ body.noscript .slide-menu{
 //  																														Informed
 
 .informed {
-	position: relative;
-	overflow: hidden;
-	margin-bottom: -0.25em;
 	width: 100%;
-	/*background: transparent url("../img/bg.jpg") no-repeat center top;
-	background-size: cover;*/
-}
-
-.informed img {
-	width: 100%;
+	background: transparent url("../images/1600x900.jpg") no-repeat center center;
+	background-size: cover;
+	display: inline-block;
+	padding: 20em 0;
 }
 
 //  																																	Footer
@@ -675,4 +680,42 @@ body.noscript .slide-menu{
 
 .involve-link:hover {
 	color: $pri-color;
+}
+
+//																																	DONATE
+
+.news .submits {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.news .checkbox input {
+	margin-bottom: 1em;
+}
+
+.monthly {
+	margin-top: 2em;
+}
+
+.submit {
+	padding: 0.5em;
+	border: 2px solid $pri-color;
+	background-color: $pri-bg;
+	display: inline-block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-decoration: none;
+	& h4 {
+		color: $pri-color;
+			margin-top: 0;
+	}
+	& h4:visited {
+		color: $pri-color;
+	}
+}
+
+.left-input,
+.right-input {
+	width: 50%;
+	float: left;
 }
