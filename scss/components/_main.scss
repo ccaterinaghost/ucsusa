@@ -80,10 +80,6 @@ h1 span {
 	color: #000;
 }
 
-h1 a .white-hover {
-	display: none;
-}
-
 @media #{$mobile} {
 	.header .small-logo {
 		display: inline-block;
@@ -91,9 +87,6 @@ h1 a .white-hover {
 		margin-left: -40px;
 	}
 	.header .large-logo {
-		display: none;
-	}
-	.white-hover {
 		display: none;
 	}
 }
@@ -106,16 +99,6 @@ h1 a .white-hover {
 		width: 500px;
 		margin-left: -250px;
 		display: inline-block;
-	}
-	h1 a:hover {
-		.large-logo {
-			display: none;
-		}
-		.white-hover {
-			display: inline-block;
-			width: 500px;
-			margin-left: -250px;
-		}
 	}
 }
 
@@ -143,19 +126,26 @@ h1 a .white-hover {
     }//li
 }//navigation ul
 
-.i-menu {
+.i-menu,
+.i-close {
 	font-size: 2em;
 	color: $pri-bg;
+	@include transition(200ms, ease);
 }
 
 .i-close {
-	font-size: 2em;
 	color: $pri-color;
 }
 
-.i-menu:hover,
-.i-close:hover {
-	color: $pri-type;
+.toggle-btn:hover,
+.close-btn:hover {
+	transform: scale(1.2);
+	& .i-menu {
+		color: $pri-type;
+	}
+	& .i-close {
+		color: $pri-type;
+	}
 }
 
 .toggle-btn,
@@ -579,15 +569,14 @@ body.noscript .slide-menu{
 	vertical-align: middle;
 	margin: 0;
 	color: $pri-bg;
-	transform: translateY(-20px);
 	overflow: hidden;
+	padding: 0 5%;
 	border-right: 10px solid $pri-color;
 	border-bottom: 10px solid $pri-color;
 	@include transition(200ms, ease-in-out);
 }
 
 .nav-sixth h3:hover {
-	color: $pri-color;
 	border-right: 10px solid $pri-bg;
 	border-bottom: 10px solid $pri-bg;
 }
@@ -641,10 +630,10 @@ body.noscript .slide-menu{
 	.nav-sixth h3 {
 		height: 125px;
 		font-size: 1.25em;
-		transform: translateY(-20px);
+		transform: translateY(-10px);
 	}
 	.nav-sixth h3:hover {
-		transform: translateY(-10px);
+		transform: translateY(0px);
 	}
 }
 
@@ -686,7 +675,8 @@ body.noscript .slide-menu{
 
 .news .submits {
 	padding-left: 0;
-	margin-bottom: 0;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 .news .checkbox input {
@@ -697,13 +687,16 @@ body.noscript .slide-menu{
 	margin-top: 2em;
 }
 
+select {
+	margin-top: 1em;
+}
+
 .submit {
 	padding: 0.5em;
 	border: 2px solid $pri-color;
 	background-color: $pri-bg;
 	display: inline-block;
 	margin-bottom: 1em;
-	margin-top: 1em;
 	text-decoration: none;
 	& h4 {
 		color: $pri-color;
