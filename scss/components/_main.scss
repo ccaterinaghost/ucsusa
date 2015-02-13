@@ -26,13 +26,9 @@ body {
 section {
 	@include zero;
 	position: relative;
-	a {
-		text-decoration: none;
-		color: $pri-type;
-	}
 }
 
-//  																																						HEADER
+//  																		Header
 
 h1 span {
 	@include element-invisible;
@@ -77,6 +73,17 @@ h1 span {
 	font-weight: 400;
 }
 
+.toggle-btn,
+.close-btn,
+.toggle-btn:visited,
+.close-btn:visited {
+	color: #000;
+}
+
+h1 a .white-hover {
+	display: none;
+}
+
 @media #{$mobile} {
 	.header .small-logo {
 		display: inline-block;
@@ -84,6 +91,9 @@ h1 span {
 		margin-left: -40px;
 	}
 	.header .large-logo {
+		display: none;
+	}
+	.white-hover {
 		display: none;
 	}
 }
@@ -97,10 +107,20 @@ h1 span {
 		margin-left: -250px;
 		display: inline-block;
 	}
+	h1 a:hover {
+		.large-logo {
+			display: none;
+		}
+		.white-hover {
+			display: inline-block;
+			width: 500px;
+			margin-left: -250px;
+		}
+	}
 }
 
 
-//																																					SLIDING NAV
+//																			Nav
 
 .toggle-btn {
   position: absolute;
@@ -123,26 +143,19 @@ h1 span {
     }//li
 }//navigation ul
 
-.i-menu,
-.i-close {
+.i-menu {
 	font-size: 2em;
 	color: $pri-bg;
-	@include transition(200ms, ease);
 }
 
 .i-close {
+	font-size: 2em;
 	color: $pri-color;
 }
 
-.toggle-btn:hover,
-.close-btn:hover {
-	transform: scale(1.2);
-	& .i-menu {
-		color: $pri-type;
-	}
-	& .i-close {
-		color: $pri-type;
-	}
+.i-menu:hover,
+.i-close:hover {
+	color: $pri-type;
 }
 
 .toggle-btn,
@@ -150,16 +163,9 @@ h1 span {
   height: 40px;
   width: 40px;
   span {
-    @include element-invisible;
+    @include hide-text;
   }//span
 }//btn
-
-.toggle-btn,
-.close-btn,
-.toggle-btn:visited,
-.close-btn:visited {
-	color: #000;
-}
 
 .site-wrapper{
 	position: relative;
@@ -239,19 +245,14 @@ body.noscript .slide-menu{
 	}
 }
 
-//  																																					LANDING + BLOG / INDEX
+//  																																			MAIN INDEX
 
 .landing {
 	width: 100%;
-	background: transparent url("../images/web-ready/earth.png") no-repeat center center;
+	background: transparent url("../images/1600x900.jpg") no-repeat center center;
 	background-size: cover;
 	display: inline-block;
 	padding: 20em 0;
-}
-
-.blog-area {
-	display: inline-block;
-	overflow: hidden;
 }
 
 .blog {
@@ -330,13 +331,11 @@ body.noscript .slide-menu{
 		padding: 2em 5% 1.5em;
 		&:nth-child(n+1) {
 			border-left: none;
+			border-bottom: 3px solid $accent;
 			border-top: none;
 		}
 		&:nth-child(even) {
 			border-left: 3px solid $accent;
-		}
-		&:nth-child(n+3) {
-			border-top: 3px solid $accent;
 		}
 	}
 
@@ -349,13 +348,10 @@ body.noscript .slide-menu{
 		&:nth-child(n+2) {
 			border-left: 3px solid $accent;
 		}
-		&:nth-child(n+1) {
-			border-top: none;
-		}
 	}
 }
 
-//  																																							GRAPH / INDEX
+//  											Graph
 
 .graph-area {
 	background-color: $accent;
@@ -410,24 +406,19 @@ body.noscript .slide-menu{
 	color: $pri-color;
 }
 
-//  																																										INFORMED / INDEX
+//  																														Informed
 
 .informed {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: -0.25em;
 	width: 100%;
-	background: transparent url("../images/web-ready/turbine-2.png") no-repeat center center;
-	background-size: cover;
-	display: inline-block;
-	padding: 20em 0;
-	float: left;
+	/*background: transparent url("../img/bg.jpg") no-repeat center top;
+	background-size: cover;*/
 }
 
-.informed h3 {
-	position: absolute;
-	top: 0.5em;
-	left: 1em;
-	font-size: 2em;
-	padding: 0.5em;
-	background-color: $pri-color;
+.informed img {
+	width: 100%;
 }
 
 //  																																	Footer
@@ -438,7 +429,6 @@ body.noscript .slide-menu{
 	position: relative;
 	background-color: $pri-color;
 	text-align: left;
-	float: left;
 }
 
 .footer-logo {
@@ -502,7 +492,7 @@ body.noscript .slide-menu{
 	}
 }
 
-//  																																			OTHER PAGES
+//  																														About Pages
 
 .news {
 	position: relative;
@@ -518,7 +508,6 @@ body.noscript .slide-menu{
 	padding: 0.5em;
 	display: inline-block;
 	width: 100%;
-	color: $pri-type;
 	background-color: $pri-color;
 }
 
@@ -559,14 +548,18 @@ body.noscript .slide-menu{
 	margin-bottom: 0.5em;
 }
 
-.news p a,
-.news p a:visited {
+.news a,
+.news a:visited {
 	color: $sec-bg;
-	border-bottom: 1px solid $sec-type;
+}
+
+.news a:hover {
+	color: $pri-color;
 }
 
 .nav-jump {
 	padding-top: 4em;
+	z-index: 5;
 }
 
 .nav-sixth {
@@ -581,14 +574,15 @@ body.noscript .slide-menu{
 	vertical-align: middle;
 	margin: 0;
 	color: $pri-bg;
+	transform: translateY(-20px);
 	overflow: hidden;
-	padding: 0 5%;
 	border-right: 10px solid $pri-color;
 	border-bottom: 10px solid $pri-color;
 	@include transition(200ms, ease-in-out);
 }
 
 .nav-sixth h3:hover {
+	color: $pri-color;
 	border-right: 10px solid $pri-bg;
 	border-bottom: 10px solid $pri-bg;
 }
@@ -600,8 +594,10 @@ body.noscript .slide-menu{
 .to-top span {
 	color: $pri-bg;
 	border: 4px solid $pri-bg;
+	padding: 0.75em;
 	bottom: 1.5em;
 	position: absolute;
+	right: 1.5em;
 	font-weight: 700;
 	@include transition(100ms, ease);
 }
@@ -617,10 +613,6 @@ body.noscript .slide-menu{
 }
 
 @media #{$mobile} {
-	.to-top span {
-		right: 0.5em;
-		padding: 0.25em;
-	}
 	.nav-sixth {
 		width: 33.33333333%;
 	}
@@ -631,10 +623,6 @@ body.noscript .slide-menu{
 }
 
 @media #{$tablet} {
-	.to-top span {
-		right: 1.5em;
-		padding: 0.75em;
-	}
 	.nav-sixth h3 {
 		height: 100px;
 		font-size: 1em;
@@ -648,10 +636,10 @@ body.noscript .slide-menu{
 	.nav-sixth h3 {
 		height: 125px;
 		font-size: 1.25em;
-		transform: translateY(-10px);
+		transform: translateY(-20px);
 	}
 	.nav-sixth h3:hover {
-		transform: translateY(0px);
+		transform: translateY(-10px);
 	}
 }
 
@@ -688,61 +676,3 @@ body.noscript .slide-menu{
 .involve-link:hover {
 	color: $pri-color;
 }
-
-//																																	DONATE / SUSCRIBE
-
-.news .submits {
-	padding-left: 0;
-	margin-top: 1em;
-}
-
-.news .checkbox input {
-	margin-bottom: 1em;
-}
-
-.monthly {
-	margin-top: 2em;
-}
-
-select {
-	margin-top: 1em;
-}
-
-.submit {
-	padding: 0.5em;
-	border: 2px solid $pri-color;
-	background-color: $pri-bg;
-	display: inline-block;
-	margin-bottom: 1em;
-	margin-right: 2em;
-	text-decoration: none;
-	@include transition(200ms, ease);
-	& h4 {
-		color: $pri-color;
-			margin-top: 0;
-	}
-	& h4:visited {
-		color: $pri-color;
-	}
-	&:hover {
-		background-color: $pri-color;
-		border: 2px solid $pri-bg;
-		& h4 {
-			color: $pri-bg;
-		}
-	}
-}
-
-.payment {
-	margin-bottom: 2em;
-}
-
-.left-input,
-.right-input {
-	width: 50%;
-	float: left;
-}
-
-input {
-  border: 3px solid $pri-color;
- }
