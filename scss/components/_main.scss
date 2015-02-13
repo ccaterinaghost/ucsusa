@@ -64,7 +64,6 @@ h1 span {
 	font-size: 1.25em;
 	margin: 0.5em 0 0 0.5em;
 	padding: 0.5em 0.75em;
-	border-radius: 5px;
 	font-weight: 300;
 	color: $pri-type;
 	background-color: $pri-bg;
@@ -136,7 +135,6 @@ h1 span {
 
 .toggle-btn:hover,
 .close-btn:hover {
-	transform: scale(1.2);
 	& .i-menu {
 		color: $pri-type;
 	}
@@ -272,6 +270,7 @@ body.noscript .slide-menu{
 	text-align: center;
 	padding: 0.25em 0;
 	font-size: 1.25em;
+	color: $pri-type;
 }
 
 .blog p {
@@ -292,7 +291,6 @@ body.noscript .slide-menu{
 
 .button {
 	text-align: center;
-	background-color: $button;
 	width: 100px;
 	height: 50px;
 	display: block;
@@ -305,12 +303,11 @@ body.noscript .slide-menu{
 .button,
 .button:visited {
 	font-size: 2.5em;
-	color: $button-text;
+	color: $pri-color;
 }
 
 .button:hover {
 	color: $button;
-	background-color: $button-text;
 }
 
 @media #{$mobile} {
@@ -370,7 +367,7 @@ body.noscript .slide-menu{
 }
 
 .area1 img {
-	padding-left: 5%;
+	padding-left: 10%;
 	width: 100%;
 }
 
@@ -389,8 +386,8 @@ body.noscript .slide-menu{
 .area2 h3 {
 	display: inline-block;
 	padding: 0.5em;
-	color: $pri-color;
-	background-color: #000;
+	color: $pri-type;
+	background-color: $sec-color;
 }
 
 .area2 p {
@@ -399,7 +396,7 @@ body.noscript .slide-menu{
 
 .area2 h4 {
 	background-color: $pri-color;
-	color: $sec-type;
+	color: $pri-type;
 	padding: 0.50em;
 	display: inline-block;
 	@include transition(200ms, ease);
@@ -456,20 +453,18 @@ body.noscript .slide-menu{
 
 .footer li {
 	float: right;
-	margin-top: 7px;
+	margin-top: 8px;
 	margin-left: 10px;
 }
 
 .social {
-	color: $pri-bg;
-	border: 3px solid $pri-bg;
+	color: $pri-type;
 	font-size: 1.8em;
 	@include transition(200ms, ease);
 }
 
 .footer li:hover .social {
-	color: $pri-type;
-	border: 3px solid $pri-type;
+	color: $sec-color;
 }
 
 @media #{$mobile} {
@@ -508,7 +503,7 @@ body.noscript .slide-menu{
 	position: relative;
 	width: 100%;
 	padding: 0 20%;
-	background-color: #999;
+	background-color: #ecf0f1;
 	padding-bottom: 2em;
 }
 
@@ -516,6 +511,7 @@ body.noscript .slide-menu{
 	text-align: center;
 	letter-spacing: 1px;
 	padding: 0.5em;
+	margin-top: 3em;
 	display: inline-block;
 	width: 100%;
 	color: $pri-type;
@@ -525,9 +521,9 @@ body.noscript .slide-menu{
 .news h3 {
 	letter-spacing: 1px;
 	padding: 0.5em;
-	margin: 0.5em 0 0;
-	background-color: $sec-type;
-	color: $pri-color;
+	margin: 2em 0 1em;
+	background-color: $sec-color;
+	color: $pri-type;
 	display: inline-block;
 	width: 100%;
 }
@@ -545,10 +541,7 @@ body.noscript .slide-menu{
 .second,
 .fourth,
 .sixth {
-	background-color: $button;
-	h3 {
-		background-color: $pri-bg;
-	}
+	background-color: #bdc3c7;
 }
 
 .news ul {
