@@ -467,6 +467,10 @@ body.noscript .slide-menu{
 	@include transition(200ms, ease);
 }
 
+.social p {
+	@include element-invisible;
+}
+
 .footer li:hover .social {
 	color: $sec-color;
 }
@@ -601,38 +605,46 @@ body.noscript .slide-menu{
 }
 
 .ow-pic {
-	@include landing-image("../images/web-ready/ice-1.png");
+	@include landing-image("../images/web-ready/ice-1.png", center);
 }
 
 .ab-pic {
-	@include landing-image("../images/web-ready/family.png");
+	@include landing-image("../images/web-ready/family.png", center);
+}
+
+.don-pic {
+	@include landing-image("../images/web-ready/explosion.png", center);
 }
 
 .to-top {
 	text-decoration: none;
 }
 
-.to-top span {
+.to-top i {
 	color: $sec-color;
 	border: 4px solid $sec-color;
 	bottom: 1.5em;
 	position: absolute;
 	font-weight: 700;
-	@include transition(100ms, ease);
+	@include transition(200ms, ease);
 }
 
-.get-involved .to-top span {
+.get-involved .to-top i {
 	color: $bg1;
 	border: 4px solid $bg1;
 }
 
-.to-top span:hover {
+.to-top i:hover {
 	color: $pri-color;
 	border: 4px solid $pri-color;
 }
 
+.hide p {
+	@include element-invisible;
+}
+
 @media #{$mobile} {
-	.to-top span {
+	.to-top i {
 		right: 0.5em;
 		padding: 0.25em;
 	}
@@ -646,7 +658,7 @@ body.noscript .slide-menu{
 }
 
 @media #{$tablet} {
-	.to-top span {
+	.to-top i {
 		right: 1.5em;
 		padding: 0.75em;
 	}

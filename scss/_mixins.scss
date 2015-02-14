@@ -43,9 +43,9 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@mixin landing-image($image) {
+@mixin landing-image($image, $align) {
   width: 90%;
-  background: transparent url($image) no-repeat center center;
+  background: transparent url($image) no-repeat center $align;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
