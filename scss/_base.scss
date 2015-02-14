@@ -3,31 +3,18 @@
 You can store things like colours, font-stacks, or any css value you think you might want to reuse
 SASS uses the '$' to declare variables.*/
 
-$pri-bg: #333;
-$sec-bg: #2b2b2b;
+$bg1: #ecf0f1;//clouds
+$bg2: #bdc3c7;//silver
+$dark-bg: #666;
 
-$pri-color: #4682B4;
-$sec-color: #2c3e50;
-
-$button: #eee;
-$button-text: #666;
-
-$accent: #eee;
-
-$notification: #f00;
+$pri-color: #4682B4;//light blue
+$sec-color: #2c3e50;//dark blue
 
 $pri-type: #fff;
 $sec-type: #000;
 
-$off-white: #ccc;
-$logo-color: #838588;
-
-$pri-font-size: 3em;
-$sec-font-size: 0.5em;
-
 // Font Stacks
-$pri-font: Helvetica, Arial, sans-serif;
-$sec-font: serif;
+$pri-font: 'Quicksand', Arial, sans-serif;
 
 // Media Query Variables
 // Usage: 

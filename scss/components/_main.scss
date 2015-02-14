@@ -5,7 +5,7 @@
 html {
 	box-sizing: border-box;
 
-	background-color: $pri-bg;
+	background-color: $sec-color;
 	font-family: $pri-font;
 }
 
@@ -66,12 +66,12 @@ h1 span {
 	padding: 0.5em 0.75em;
 	font-weight: 300;
 	color: $pri-type;
-	background-color: $pri-bg;
+	background-color: $sec-color;
 	@include transition(300ms, ease-in-out);
 }
 
 .donate-text:hover {
-	color: $pri-bg;
+	color: $sec-color;
 	background-color: $pri-type;
 	font-weight: 400;
 }
@@ -125,7 +125,7 @@ h1 span {
 .i-menu,
 .i-close {
 	font-size: 2em;
-	color: $pri-bg;
+	color: $sec-color;
 	@include transition(200ms, ease);
 }
 
@@ -250,19 +250,20 @@ body.noscript .slide-menu{
 .blog-area {
 	display: inline-block;
 	overflow: hidden;
+	float: left;
 }
 
 .blog {
 	margin: 0; 
 	float: left;
-	background-color: $pri-bg;
+	background-color: $bg2;
 	height: 300px;
 	display: inline-block;	
 	position: relative;
 }
 
 .blog:nth-child(n+2) {
-	border-left: 3px solid $accent;
+	border-left: 3px solid $bg1;
 }
 
 .blog h2 {
@@ -274,7 +275,7 @@ body.noscript .slide-menu{
 }
 
 .blog p {
-	color: $pri-type;
+	color: $sec-type;
 	font-size: 1em;
 }
 
@@ -307,7 +308,7 @@ body.noscript .slide-menu{
 }
 
 .button:hover {
-	color: $button;
+	color: $sec-color;
 }
 
 @media #{$mobile} {
@@ -317,7 +318,7 @@ body.noscript .slide-menu{
 	}
 	.blog:nth-child(n+2) {
 		border-left: none;
-		border-top: 3px solid $accent;
+		border-top: 3px solid $bg1;
 	}
 }
 
@@ -330,10 +331,10 @@ body.noscript .slide-menu{
 			border-top: none;
 		}
 		&:nth-child(even) {
-			border-left: 3px solid $accent;
+			border-left: 3px solid $bg1;
 		}
 		&:nth-child(n+3) {
-			border-top: 3px solid $accent;
+			border-top: 3px solid $bg1;
 		}
 	}
 
@@ -344,7 +345,7 @@ body.noscript .slide-menu{
 		width: 25%;
 		padding: 2em 2.5% 1.5em;
 		&:nth-child(n+2) {
-			border-left: 3px solid $accent;
+			border-left: 3px solid $bg1;
 		}
 		&:nth-child(n+1) {
 			border-top: none;
@@ -355,20 +356,19 @@ body.noscript .slide-menu{
 //  																																							GRAPH / INDEX
 
 .graph-area {
-	background-color: $accent;
+	background-color: $bg1;
 	float: left;
 	width: 100%;
 }
 
 .area1 {
-	width: 40%;
+	width: 50%;
 	float: left;
 	text-align: right;
 }
 
 .area1 img {
-	padding-left: 10%;
-	width: 100%;
+	width: 80%;
 }
 
 .graph {
@@ -378,9 +378,9 @@ body.noscript .slide-menu{
 
 .area2 {
 	margin: 4em 0 0;
-	width: 60%;
+	width: 50%;
 	float: left;
-	padding: 0 15% 0 10%;
+	padding: 0 10% 0 5%;
 }
 
 .area2 h3 {
@@ -553,8 +553,10 @@ body.noscript .slide-menu{
 }
 
 .news p a,
-.news p a:visited {
-	color: $sec-bg;
+.news p a:visited,
+.news li a,
+.news li a:visited {
+	color: $sec-type;
 	border-bottom: 1px solid $sec-type;
 }
 
@@ -574,7 +576,7 @@ body.noscript .slide-menu{
 	display: table-cell;
 	vertical-align: middle;
 	margin: 0;
-	color: $pri-bg;
+	color: $sec-color;
 	overflow: hidden;
 	padding: 0 5%;
 	border-right: 10px solid $pri-color;
@@ -583,8 +585,8 @@ body.noscript .slide-menu{
 }
 
 .nav-sixth h3:hover {
-	border-right: 10px solid $pri-bg;
-	border-bottom: 10px solid $pri-bg;
+	border-right: 10px solid $sec-color;
+	border-bottom: 10px solid $sec-color;
 }
 
 .to-top {
@@ -592,8 +594,8 @@ body.noscript .slide-menu{
 }
 
 .to-top span {
-	color: $pri-bg;
-	border: 4px solid $pri-bg;
+	color: $sec-color;
+	border: 4px solid $sec-color;
 	bottom: 1.5em;
 	position: absolute;
 	font-weight: 700;
@@ -601,8 +603,8 @@ body.noscript .slide-menu{
 }
 
 .get-involved .to-top span {
-	color: $button;
-	border: 4px solid $button;
+	color: $bg1;
+	border: 4px solid $bg1;
 }
 
 .to-top span:hover {
@@ -652,16 +654,18 @@ body.noscript .slide-menu{
 //																															GET INVOLVED
 
 .get-involved {
-	background-color: $button-text;
+	background-color: $dark-bg;
 	color: $pri-type;
 	text-align: center;
 }
 
 .get-involved h3 {
 	background: none;
+	color: $pri-type;
 	font-size: 2em;
 	margin-top: 0;
 	padding-top: 0;
+	margin-bottom: 0;
 }
 
 .get-involved a {
@@ -670,17 +674,18 @@ body.noscript .slide-menu{
 
 .involve-link,
 .involve-link:visited {
-	color: $pri-type;
+	color: $pri-color;
 	font-size: 1.5em;
-	border-bottom: 2px solid #fff;
+	background-color: $pri-type;
 	display: inline-block;
-	@include zero;
-	margin-top: 0.5em;
-
+	margin: 0.5em 0;
+	padding: 0.5em;
+	font-weight: 300;
 }
 
 .involve-link:hover {
-	color: $pri-color;
+	color: $pri-type;
+	background-color: $pri-color;
 }
 
 //																																	DONATE / SUSCRIBE
@@ -704,26 +709,21 @@ select {
 
 .submit {
 	padding: 0.5em;
-	border: 2px solid $pri-color;
-	background-color: $pri-bg;
+	background-color: $pri-color;
 	display: inline-block;
 	margin-bottom: 1em;
 	margin-right: 2em;
 	text-decoration: none;
 	@include transition(200ms, ease);
 	& h4 {
-		color: $pri-color;
+		color: $pri-type;
 			margin-top: 0;
 	}
 	& h4:visited {
-		color: $pri-color;
+		color: $pri-type;
 	}
 	&:hover {
-		background-color: $pri-color;
-		border: 2px solid $pri-bg;
-		& h4 {
-			color: $pri-bg;
-		}
+		background-color: $sec-color;
 	}
 }
 
@@ -738,6 +738,5 @@ select {
 }
 
 input {
-  border: 3px solid $pri-color;
-  background-color: $pri-color;
+  background-color: $pri-type;
  }
