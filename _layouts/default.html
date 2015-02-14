@@ -28,12 +28,12 @@
           <a class="close-btn" href="#"><i class="i-close"></i><span>Close</span></a>
 
           <ul>
-              <li><a href="{{site.baseurl}}/">Home</a></li>
-              <li><a href="{{site.baseurl}}/ourwork/">Our Work</a></li>
-              <li><a href="{{site.baseurl}}/about/">About</a></li>
-              <li><a href="{{site.baseurl}}/takeaction/">Take Action</a></li>
-              <li><a href="{{site.baseurl}}/subscribe/">Subscribe</a></li>
-              <li><a href="{{site.baseurl}}/donate/" class="donate-color">Donate</a></li>
+              <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+              <li><a href="{{site.baseurl}}/ourwork/" class="{% if page.url == '/ourwork/' %}current{% endif %}">Our Work</a></li>
+              <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">About</a></li>
+              <li><a href="{{site.baseurl}}/takeaction/" class="{% if page.url == '/takeaction/' %}current{% endif %}">Take Action</a></li>
+              <li><a href="{{site.baseurl}}/subscribe/" class="{% if page.url == '/subscribe/' %}current{% endif %}">Subscribe</a></li>
+              <li><a href="{{site.baseurl}}/donate/" class="{% if page.url == '/donate/' %}current{% endif %}">Donate</a></li>
           </ul>
 
         </nav>

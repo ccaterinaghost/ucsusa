@@ -4,7 +4,6 @@
 
 html {
 	box-sizing: border-box;
-
 	background-color: $sec-color;
 	font-family: $pri-font;
 }
@@ -160,6 +159,7 @@ h1 span {
 }
 
 .site-wrapper{
+
 	position: relative;
 	overflow: hidden;
 	width: 100%;
@@ -193,16 +193,10 @@ h1 span {
 	  padding: 0.75em 2%;
 	  bottom: 0;
 	  right: -30%;
-	  min-height: 600px;
+	  min-height: 800px;
 	}
 }
 
-.header ul li a,
-.header ul li a:visited {
-	text-decoration: none;
-	color: $pri-type;
-	@include transition(300ms, ease);
-}
 
 .header ul li a:hover {
 	color: $pri-color;
@@ -235,6 +229,16 @@ body.noscript .slide-menu{
 		  right: -30%;
 		}
 	}
+}
+
+.current,
+.current:visited {
+	color: $pri-color;
+	font-weight: 400;
+}
+
+.current:hover {
+	color: bg2;
 }
 
 //  																																					LANDING + BLOG / INDEX
@@ -511,7 +515,7 @@ body.noscript .slide-menu{
 	text-align: center;
 	letter-spacing: 1px;
 	padding: 0.5em;
-	margin-top: 3em;
+	margin-top: 2em;
 	display: inline-block;
 	width: 100%;
 	color: $pri-type;
@@ -521,7 +525,7 @@ body.noscript .slide-menu{
 .news h3 {
 	letter-spacing: 1px;
 	padding: 0.5em;
-	margin: 2em 0 1em;
+	margin: 1em 0 1em;
 	background-color: $sec-color;
 	color: $pri-type;
 	display: inline-block;
@@ -570,6 +574,7 @@ body.noscript .slide-menu{
 	text-align: center;
 	float: left;
 	display: table;
+	background-color: $bg2;
 }
 
 .nav-sixth h3 {
@@ -587,6 +592,20 @@ body.noscript .slide-menu{
 .nav-sixth h3:hover {
 	border-right: 10px solid $sec-color;
 	border-bottom: 10px solid $sec-color;
+}
+
+.ow-landing {
+	width: 100%;
+	position: relative;
+	background-color: $bg2;
+}
+
+.ow-pic {
+	@include landing-image("../images/web-ready/ice-1.png");
+}
+
+.ab-pic {
+	@include landing-image("../images/web-ready/family.png");
 }
 
 .to-top {
@@ -632,17 +651,16 @@ body.noscript .slide-menu{
 		padding: 0.75em;
 	}
 	.nav-sixth h3 {
-		height: 100px;
 		font-size: 1em;
 	}
 }
 
 @media #{$desktop-small} {
 	.nav-sixth {
-		width: 16.666666%;
+		width: 16.66%;
 	}
 	.nav-sixth h3 {
-		height: 125px;
+		height: 100px;
 		font-size: 1.25em;
 		transform: translateY(-10px);
 	}
