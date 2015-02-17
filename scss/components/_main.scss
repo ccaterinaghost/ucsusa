@@ -247,11 +247,11 @@ body.noscript .slide-menu{
 @media #{$mobile-landscape} {
 	.site-wrapper{
 		&[data-state="slide-open"] .sliding-canvas {
-	  	transform: translateX(-30%);
+	  	transform: translateX(-50%);
 		}
 		.slide-menu {
-		  width: 30%;
-		  right: -30%;
+		  width: 50%;
+		  right: -50%;
 		}
 	}
 }
@@ -259,6 +259,15 @@ body.noscript .slide-menu{
 @media #{$desktop} {
 	.toggle-btn {
 		margin-top: 0;
+	}
+	.site-wrapper{
+		&[data-state="slide-open"] .sliding-canvas {
+	  	transform: translateX(-30%);
+		}
+		.slide-menu {
+		  width: 30%;
+		  right: -30%;
+		}
 	}
 }
 
