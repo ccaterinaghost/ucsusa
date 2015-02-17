@@ -40,7 +40,6 @@ h1 span {
 .header { 
 	@include zero;
 	width: 100%;
-	height: 4em;
 	padding: 0 1em;
 	position: absolute;
 	background-color: $pri-type;
@@ -60,10 +59,9 @@ h1 span {
 
 .donate-text {
 	display: inline-block;
-	font-size: 1.25em;
 	margin-top: -.01em;
 	margin-left: .25em;
-	padding: 1em ;
+	padding: 1em;
 	font-weight: 300;
 	color: $pri-type;
 	background-color: $donate;
@@ -76,24 +74,53 @@ h1 span {
 }
 
 @media #{$mobile} {
+	.header {
+		height: 6em;
+	}
+	.donate-text {
+		padding: 2.4em 0.5em;
+		font-size: 1em;
+	}
 	.header .small-logo {
 		display: inline-block;
-		width: 120px;
-		margin-left: -60px;
+		width: 200px;
+		margin-left: -100px;
+		transform: scale(1);
+		margin-top: 0.5em;
 	}
 	.header .large-logo {
 		display: none;
 	}
 }
 
-@media #{$tablet-landscape} {
+@media #{$between} {
+	.donate-text {
+		padding: 1.4em;
+		font-size: 1.5em;
+	}
 	.header .small-logo {
 		display: none;
 	}
 	.header .large-logo {
 		width: 200px;
 		margin-left: -100px;
+		transform: scale(1.5);
+		margin-top: 0.66em;
 		display: inline-block;
+	}
+}
+
+@media #{$desktop} {
+	.header {
+		height: 4em;
+	}
+	.donate-text {
+		padding: 1em;
+		font-size: 1.25em;
+	}
+	.header .large-logo {
+		transform: scale(1);
+		margin-top: 0;
 	}
 }
 
@@ -212,6 +239,9 @@ body.noscript .slide-menu{
 		  right: -100%;
 		}
 	}
+	.toggle-btn {
+		margin-top: 1em;
+	}
 }
 
 @media #{$mobile-landscape} {
@@ -223,6 +253,12 @@ body.noscript .slide-menu{
 		  width: 30%;
 		  right: -30%;
 		}
+	}
+}
+
+@media #{$desktop} {
+	.toggle-btn {
+		margin-top: 0;
 	}
 }
 
@@ -247,6 +283,7 @@ body.noscript .slide-menu{
 }
 
 .landing div {
+	width: 40%;
 	color: $pri-type;
 	padding-left: 2em;
 	position: absolute;
@@ -333,6 +370,9 @@ body.noscript .slide-menu{
 }
 
 @media #{$mobile} {
+	.landing div {
+		top: 8em;
+	}
 	.blog {
 		width: 100%;
 		padding: 2em 10% 1.5em;
