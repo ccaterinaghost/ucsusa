@@ -84,7 +84,7 @@ h1 span {
 /* line 72, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .donate-text:hover {
   color: #2c3e50;
-  background-color: #fff;
+  background-color: #ddd;
   font-weight: 400; }
 
 @media only screen and (min-width: 20em) {
