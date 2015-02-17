@@ -246,6 +246,28 @@ body.noscript .slide-menu{
 	padding: 23em 0;
 }
 
+.landing div {
+	color: $pri-type;
+	padding-left: 2em;
+	position: absolute;
+	top: 6em;
+	h2 {
+		@include zero;
+	}
+	p {
+		margin-top: 0.5em;
+		margin-bottom: 1.5em;
+	}
+	a {
+		background-color: $pri-color;
+		padding: 0.5em;
+		@include transition(200ms, ease);
+	}
+	a:hover {
+		background-color: $sec-color;
+	}
+}
+
 .blog-area {
 	display: inline-block;
 	overflow: hidden;
