@@ -140,7 +140,7 @@ h1 span {
 
 /* line 131, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .i-close {
-  color: #4682B4; }
+  color: #fff; }
 
 /* line 136, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .toggle-btn:hover .i-menu {
@@ -250,7 +250,7 @@ body.noscript .slide-menu {
   background: transparent url("../images/web-ready/earth.png") no-repeat center center;
   background-size: cover;
   display: inline-block;
-  padding: 20em 0; }
+  padding: 23em 0; }
 
 /* line 249, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog-area {
@@ -585,8 +585,8 @@ body.noscript .slide-menu {
   color: #2c3e50;
   overflow: hidden;
   padding: 0 5%;
-  border-right: 10px solid #4682B4;
-  border-bottom: 10px solid #4682B4;
+  border-right: 10px solid #fff;
+  border-bottom: 10px solid #fff;
   transition: all 200ms, ease-in-out; }
 
 /* line 590, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */

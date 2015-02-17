@@ -129,7 +129,7 @@ h1 span {
 }
 
 .i-close {
-	color: $pri-color;
+	color: $pri-type;
 }
 
 .toggle-btn:hover {
@@ -243,7 +243,7 @@ body.noscript .slide-menu{
 	background: transparent url("../images/web-ready/earth.png") no-repeat center center;
 	background-size: cover;
 	display: inline-block;
-	padding: 20em 0;
+	padding: 23em 0;
 }
 
 .blog-area {
@@ -582,8 +582,8 @@ body.noscript .slide-menu{
 	color: $sec-color;
 	overflow: hidden;
 	padding: 0 5%;
-	border-right: 10px solid $pri-color;
-	border-bottom: 10px solid $pri-color;
+	border-right: 10px solid $pri-type;
+	border-bottom: 10px solid $pri-type;
 	@include transition(200ms, ease-in-out);
 }
 
