@@ -307,7 +307,7 @@ body.noscript .slide-menu {
 /* line 288, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .landing {
   width: 100%;
-  background: transparent url("../images/web-ready/earth.png") no-repeat center center;
+  background: transparent url("../images/web-ready/earth.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 23em 0; }
@@ -500,7 +500,7 @@ body.noscript .slide-menu {
 /* line 483, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed {
   width: 100%;
-  background: transparent url("../images/web-ready/turbine-2.png") no-repeat center center;
+  background: transparent url("../images/web-ready/turbine-2.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 20em 0;
@@ -719,7 +719,7 @@ body.noscript .slide-menu {
 /* line 691, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ow-pic {
   width: 100%;
-  background: transparent url("../images/web-ready/ice-1.png") no-repeat center center;
+  background: transparent url("../images/web-ready/ice-1.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
@@ -728,7 +728,7 @@ body.noscript .slide-menu {
 /* line 695, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ab-pic {
   width: 100%;
-  background: transparent url("../images/web-ready/family.png") no-repeat center center;
+  background: transparent url("../images/web-ready/family.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
@@ -737,7 +737,7 @@ body.noscript .slide-menu {
 /* line 699, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .don-pic {
   width: 100%;
-  background: transparent url("../images/web-ready/explosion.png") no-repeat center center;
+  background: transparent url("../images/web-ready/explosion.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;

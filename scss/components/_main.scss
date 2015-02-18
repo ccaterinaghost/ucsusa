@@ -287,7 +287,7 @@ body.noscript .slide-menu{
 
 .landing {
 	width: 100%;
-	background: transparent url("../images/web-ready/earth.png") no-repeat center center;
+	background: transparent url("../images/web-ready/earth.jpg") no-repeat center center;
 	background-size: cover;
 	display: inline-block;
 	padding: 23em 0;
@@ -482,7 +482,7 @@ body.noscript .slide-menu{
 
 .informed {
 	width: 100%;
-	background: transparent url("../images/web-ready/turbine-2.png") no-repeat center center;
+	background: transparent url("../images/web-ready/turbine-2.jpg") no-repeat center center;
 	background-size: cover;
 	display: inline-block;
 	padding: 20em 0;
@@ -689,15 +689,15 @@ body.noscript .slide-menu{
 }
 
 .ow-pic {
-	@include landing-image("../images/web-ready/ice-1.png", center);
+	@include landing-image("../images/web-ready/ice-1.jpg", center);
 }
 
 .ab-pic {
-	@include landing-image("../images/web-ready/family.png", center);
+	@include landing-image("../images/web-ready/family.jpg", center);
 }
 
 .don-pic {
-	@include landing-image("../images/web-ready/explosion.png", center);
+	@include landing-image("../images/web-ready/explosion.jpg", center);
 }
 
 .to-top {
