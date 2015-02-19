@@ -110,7 +110,7 @@ h1 span {
 	}
 }
 
-@media #{$desktop} {
+@media #{$desktop-small} {
 	.header {
 		height: 4em;
 	}
@@ -257,7 +257,7 @@ body.noscript .slide-menu{
 	}
 }
 
-@media #{$desktop} {
+@media #{$desktop-small} {
 	.toggle-btn {
 		margin-top: 0;
 	}
@@ -743,7 +743,7 @@ body.noscript .slide-menu{
 	}
 }
 
-@media #{$tablet} {
+@media #{$between} {
 	.to-top i {
 		padding: 0.75em;
 	}

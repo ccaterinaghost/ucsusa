@@ -130,7 +130,7 @@ h1 span {
     display: inline-block; }
  }
 
-@media only screen and (min-width: 87.5em) {
+@media only screen and (min-width: 75em) {
   /* line 114, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header {
     height: 4em; }
@@ -278,7 +278,7 @@ body.noscript .slide-menu {
     right: -50%; }
  }
 
-@media only screen and (min-width: 87.5em) {
+@media only screen and (min-width: 75em) {
   /* line 261, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .toggle-btn {
     margin-top: 0; }
@@ -793,7 +793,7 @@ body.noscript .slide-menu {
     font-size: 0.75em; }
  }
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 45em) {
   /* line 747, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .to-top i {
     padding: 0.75em; }
