@@ -266,7 +266,7 @@ body.noscript .slide-menu {
     margin-top: 1em; }
  }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 45em) {
   /* line 250, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-50%);

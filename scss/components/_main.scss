@@ -245,7 +245,7 @@ body.noscript .slide-menu{
 	}
 }
 
-@media #{$mobile-landscape} {
+@media #{$between} {
 	.site-wrapper{
 		&[data-state="slide-open"] .sliding-canvas {
 	  	transform: translateX(-50%);
