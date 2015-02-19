@@ -290,7 +290,7 @@ body.noscript .slide-menu{
 	background: transparent url("../images/web-ready/earth.jpg") no-repeat center center;
 	background-size: cover;
 	display: inline-block;
-	padding: 23em 0;
+	padding: 24em 0;
 }
 
 .landing div {
@@ -325,7 +325,7 @@ body.noscript .slide-menu{
 .blog {
 	margin: 0; 
 	float: left;
-	background-color: $bg2;
+	background-color: $pri-type;
 	height: 300px;
 	display: inline-block;	
 	position: relative;
@@ -390,7 +390,7 @@ body.noscript .slide-menu{
 	}
 	.blog:nth-child(n+2) {
 		border-left: none;
-		border-top: 3px solid $bg1;
+		border-top: 3px solid $pri-color;
 	}
 }
 
@@ -403,10 +403,10 @@ body.noscript .slide-menu{
 			border-top: none;
 		}
 		&:nth-child(even) {
-			border-left: 3px solid $bg1;
+			border-left: 3px solid $pri-color;
 		}
 		&:nth-child(n+3) {
-			border-top: 3px solid $bg1;
+			border-top: 3px solid $pri-color;
 		}
 	}
 
@@ -417,7 +417,7 @@ body.noscript .slide-menu{
 		width: 25%;
 		padding: 2em 2.5% 1.5em;
 		&:nth-child(n+2) {
-			border-left: 3px solid $bg1;
+			border-left: 3px solid $pri-color;
 		}
 		&:nth-child(n+1) {
 			border-top: none;
@@ -428,7 +428,7 @@ body.noscript .slide-menu{
 //  																																							GRAPH / INDEX
 
 .graph-area {
-	background-color: $bg1;
+	background-color: $bg2;
 	float: left;
 	width: 100%;
 }
