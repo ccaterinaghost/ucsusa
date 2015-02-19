@@ -627,6 +627,7 @@ body.noscript .slide-menu{
 .news h4 {
 	@include zero;
 	margin-top: 0.5em;
+	/* Inspect element says padding: 0; is overriding the padding on the buttons*/
 }
 
 .news p {
