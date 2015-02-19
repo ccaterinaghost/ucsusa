@@ -59,9 +59,7 @@ h1 span {
 
 .donate-text {
 	display: inline-block;
-	margin-top: -.01em;
 	margin-left: .25em;
-	padding: 1em;
 	font-weight: 300;
 	color: $pri-type;
 	background-color: $donate;
@@ -78,7 +76,8 @@ h1 span {
 		height: 6em;
 	}
 	.donate-text {
-		padding: 2.4em 0.5em;
+		padding: 1em;
+		margin-top: 1.5em;
 		font-size: 1em;
 	}
 	.header .small-logo {
@@ -95,7 +94,8 @@ h1 span {
 
 @media #{$between} {
 	.donate-text {
-		padding: 1.4em;
+		padding: 0.5em;
+		margin-top: 1em;
 		font-size: 1.5em;
 	}
 	.header .small-logo {
@@ -115,7 +115,7 @@ h1 span {
 		height: 4em;
 	}
 	.donate-text {
-		padding: 1em;
+		margin-top: 0.5em;
 		font-size: 1.25em;
 	}
 	.header .large-logo {
