@@ -310,39 +310,40 @@ body.noscript .slide-menu {
   background: transparent url("../images/web-ready/earth.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
-  padding: 24em 0; }
+  padding: 24em 0;
+  float: left; }
 
-/* line 296, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 297, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .landing div {
   width: 40%;
   color: #fff;
   padding-left: 2em;
   position: absolute;
   top: 6em; }
-  /* line 302, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 303, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div h2 {
     margin: 0;
     padding: 0; }
-  /* line 305, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 306, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div p {
     margin-top: 0.5em;
     margin-bottom: 1.5em; }
-  /* line 309, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 310, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div a {
     background-color: #4682B4;
     padding: 0.5em;
     transition: all 200ms, ease; }
-  /* line 314, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 315, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div a:hover {
     background-color: #2c3e50; }
 
-/* line 319, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 320, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog-area {
   display: inline-block;
   overflow: hidden;
   float: left; }
 
-/* line 325, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 326, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog {
   margin: 0;
   float: left;
@@ -351,11 +352,11 @@ body.noscript .slide-menu {
   display: inline-block;
   position: relative; }
 
-/* line 334, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 335, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog:nth-child(n+2) {
   border-left: 3px solid #ecf0f1; }
 
-/* line 338, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 339, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog h2 {
   background-color: #4682B4;
   text-align: center;
@@ -363,23 +364,23 @@ body.noscript .slide-menu {
   font-size: 1.25em;
   color: #fff; }
 
-/* line 346, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 347, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog p {
   color: #000;
   font-size: 1em; }
 
-/* line 351, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 352, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog a {
   display: block;
   text-decoration: none; }
 
-/* line 356, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 357, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button-align {
   position: absolute;
   bottom: 3em;
   margin-left: 25%; }
 
-/* line 362, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 363, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button {
   text-align: center;
   width: 100px;
@@ -390,102 +391,102 @@ body.noscript .slide-menu {
   margin: 0 auto;
   transition: all 200ms, ease; }
 
-/* line 374, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 375, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button, .button:visited {
   font-size: 2.5em;
   color: #4682B4; }
 
-/* line 379, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 380, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button:hover {
   color: #2c3e50; }
 
 @media only screen and (min-width: 20em) {
-  /* line 384, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 385, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div {
     top: 8em; }
 
-  /* line 387, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 388, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 100%;
     padding: 2em 10% 1.5em; }
 
-  /* line 391, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 392, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog:nth-child(n+2) {
     border-left: none;
     border-top: 3px solid #4682B4; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 398, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 399, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 50%;
     padding: 2em 5% 1.5em; }
-    /* line 401, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+    /* line 402, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+1) {
       border-left: none;
       border-top: none; }
-    /* line 405, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+    /* line 406, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(even) {
       border-left: 3px solid #4682B4; }
-    /* line 408, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+    /* line 409, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+3) {
       border-top: 3px solid #4682B4; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 416, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 417, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 25%;
     padding: 2em 2.5% 1.5em; }
-    /* line 419, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+    /* line 420, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+2) {
       border-left: 3px solid #4682B4; }
-    /* line 422, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+    /* line 423, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+1) {
       border-top: none; }
  }
 
-/* line 430, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 431, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .graph-area {
   background-color: #bdc3c7;
   float: left;
   width: 100%; }
 
-/* line 436, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 437, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area1 {
   width: 50%;
   float: left;
   text-align: right; }
 
-/* line 442, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 443, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area1 img {
   width: 80%; }
 
-/* line 446, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 447, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .graph {
   margin: 5em 0;
   position: relative; }
 
-/* line 451, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 452, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 {
   margin: 4em 0 0;
   width: 50%;
   float: left;
   padding: 0 10% 0 5%; }
 
-/* line 458, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 459, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h3 {
   display: inline-block;
   padding: 0.5em;
   color: #fff;
   background-color: #2c3e50; }
 
-/* line 465, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 466, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 p {
   margin: 0;
   padding: 0; }
 
-/* line 469, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 470, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h4 {
   background-color: #4682B4;
   color: #fff;
@@ -493,11 +494,11 @@ body.noscript .slide-menu {
   display: inline-block;
   transition: all 200ms, ease; }
 
-/* line 477, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 478, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h4:hover {
   color: #2c3e50; }
 
-/* line 483, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 484, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed {
   width: 100%;
   background: transparent url("../images/web-ready/turbine-2.jpg") no-repeat center center;
@@ -506,7 +507,7 @@ body.noscript .slide-menu {
   padding: 20em 0;
   float: left; }
 
-/* line 492, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 493, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed h3 {
   position: absolute;
   top: 0.5em;
@@ -515,7 +516,7 @@ body.noscript .slide-menu {
   padding: 0.5em;
   background-color: #4682B4; }
 
-/* line 503, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 504, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer {
   width: 100%;
   position: relative;
@@ -523,29 +524,29 @@ body.noscript .slide-menu {
   text-align: left;
   float: left; }
 
-/* line 511, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 512, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer-logo {
   float: left;
   height: 2.5em;
   margin-left: 1em; }
 
-/* line 517, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 518, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-right: 1em; }
 
-/* line 523, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 524, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer li {
   float: right; }
 
-/* line 527, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 528, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .social {
   color: #2c3e50;
   transition: all 200ms, ease; }
 
-/* line 532, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 533, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .social p {
   position: absolute !important;
   height: 1px;
@@ -553,16 +554,16 @@ body.noscript .slide-menu {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px); }
 
-/* line 536, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 537, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer li:hover .social {
   color: #4682B4; }
 
 @media only screen and (min-width: 20em) {
-  /* line 541, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 542, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer {
     height: 5em; }
 
-  /* line 544, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 545, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: inline-block;
     -webkit-transform: scale(1.5);
@@ -571,26 +572,26 @@ body.noscript .slide-menu {
     margin-left: 3em;
     margin-top: 1.25em; }
 
-  /* line 550, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 551, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     display: none; }
 
-  /* line 553, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 554, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .social {
     font-size: 2.5em; }
 
-  /* line 556, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 557, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer li {
     margin-top: 16px;
     margin-left: 20px; }
  }
 
 @media only screen and (min-width: 30em) {
-  /* line 563, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 564, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: none; }
 
-  /* line 566, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 567, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
@@ -601,11 +602,11 @@ body.noscript .slide-menu {
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 575, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 576, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer {
     height: 3em; }
 
-  /* line 578, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 579, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: inline-block;
     -webkit-transform: scale(1);
@@ -614,21 +615,21 @@ body.noscript .slide-menu {
     margin-left: 1em;
     margin-top: 0.25em; }
 
-  /* line 584, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 585, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     display: none; }
 
-  /* line 587, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 588, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .social {
     font-size: 1.8em; }
 
-  /* line 590, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 591, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer li {
     margin-top: 8px;
     margin-left: 10px; }
  }
 
-/* line 598, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 599, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news {
   position: relative;
   width: 100%;
@@ -636,7 +637,7 @@ body.noscript .slide-menu {
   background-color: #ecf0f1;
   padding-bottom: 2em; }
 
-/* line 606, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 607, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h2 {
   text-align: center;
   letter-spacing: 1px;
@@ -647,7 +648,7 @@ body.noscript .slide-menu {
   color: #fff;
   background-color: #4682B4; }
 
-/* line 617, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 618, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h3 {
   letter-spacing: 1px;
   padding: 0.5em;
@@ -657,36 +658,36 @@ body.noscript .slide-menu {
   display: inline-block;
   width: 100%; }
 
-/* line 627, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 628, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h4 {
   margin: 0;
   padding: 0;
   margin-top: 0.5em
   /* Inspect element says padding: 0; is overriding the padding on the buttons*/ }
 
-/* line 633, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 634, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p {
   margin: 0.5em 0;
   line-height: 130%; }
 
-/* line 640, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 641, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .second, .fourth, .sixth {
   background-color: #bdc3c7; }
 
-/* line 644, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 645, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news ul {
   padding-left: 20px; }
 
-/* line 648, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 649, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news li {
   margin-bottom: 0.5em; }
 
-/* line 655, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 656, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p a, .news p a:visited, .news li a, .news li a:visited {
   color: #000;
   border-bottom: 1px solid #000; }
 
-/* line 660, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 661, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth {
   display: inline-block;
   text-align: center;
@@ -694,7 +695,7 @@ body.noscript .slide-menu {
   display: table;
   background-color: #bdc3c7; }
 
-/* line 668, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 669, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth h3 {
   display: table-cell;
   vertical-align: middle;
@@ -706,18 +707,18 @@ body.noscript .slide-menu {
   border-bottom: 10px solid #fff;
   transition: all 200ms, ease-in-out; }
 
-/* line 681, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 682, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth h3:hover, .nav-sixth h3:active {
   border-right: 10px solid #2c3e50;
   border-bottom: 10px solid #2c3e50; }
 
-/* line 686, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 687, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ow-landing {
   width: 100%;
   position: relative;
   background-color: #fff; }
 
-/* line 692, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 693, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ow-pic {
   width: 100%;
   background: transparent url("../images/web-ready/ice-1.jpg") no-repeat center center;
@@ -726,7 +727,7 @@ body.noscript .slide-menu {
   padding: 18em 0;
   z-index: 10; }
 
-/* line 696, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 697, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ab-pic {
   width: 100%;
   background: transparent url("../images/web-ready/family.jpg") no-repeat center center;
@@ -735,7 +736,7 @@ body.noscript .slide-menu {
   padding: 18em 0;
   z-index: 10; }
 
-/* line 700, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 701, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .don-pic {
   width: 100%;
   background: transparent url("../images/web-ready/explosion.jpg") no-repeat center center;
@@ -744,11 +745,11 @@ body.noscript .slide-menu {
   padding: 18em 0;
   z-index: 10; }
 
-/* line 704, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 705, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top {
   text-decoration: none; }
 
-/* line 708, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 709, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top i {
   color: #2c3e50;
   bottom: 0.5em;
@@ -757,15 +758,15 @@ body.noscript .slide-menu {
   font-weight: 700;
   transition: all 200ms, ease; }
 
-/* line 717, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 718, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved .to-top i {
   color: #ecf0f1; }
 
-/* line 721, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 722, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top i:hover {
   color: #4682B4; }
 
-/* line 725, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 726, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .hide p {
   position: absolute !important;
   height: 1px;
@@ -774,46 +775,46 @@ body.noscript .slide-menu {
   clip: rect(1px, 1px, 1px, 1px); }
 
 @media only screen and (min-width: 20em) {
-  /* line 730, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 731, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .to-top i {
     right: 0.5em;
     padding: 0.25em; }
 
-  /* line 734, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 735, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-jump {
     z-index: 1;
     padding-top: 6em; }
 
-  /* line 738, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 739, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth {
-    width: 33.33333333%; }
+    width: calc(1/3 * 100%); }
 
-  /* line 741, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 742, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     height: 75px;
     font-size: 0.75em; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 748, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 749, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .to-top i {
     padding: 0.75em; }
 
-  /* line 751, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 752, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     font-size: 1em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 757, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 758, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-jump {
     padding-top: 4em; }
 
-  /* line 760, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 761, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth {
-    width: 16.66%; }
+    width: calc(1/6 * 100%); }
 
-  /* line 763, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 764, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     height: 100px;
     font-size: 1.25em;
@@ -821,20 +822,20 @@ body.noscript .slide-menu {
         -ms-transform: scaleY(1);
             transform: scaleY(1); }
 
-  /* line 768, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 769, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3:hover {
     -webkit-transform: scaleY(1.1);
         -ms-transform: scaleY(1.1);
             transform: scaleY(1.1); }
  }
 
-/* line 775, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 776, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved {
   background-color: #666;
   color: #fff;
   text-align: center; }
 
-/* line 781, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 782, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved h3 {
   background: none;
   color: #fff;
@@ -843,11 +844,11 @@ body.noscript .slide-menu {
   padding-top: 0;
   margin-bottom: 0; }
 
-/* line 790, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 791, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved a {
   text-decoration: none; }
 
-/* line 795, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 796, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link, .involve-link:visited {
   color: #4682B4;
   font-size: 1.5em;
@@ -857,29 +858,29 @@ body.noscript .slide-menu {
   padding: 0.5em;
   font-weight: 300; }
 
-/* line 805, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 806, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link:hover {
   color: #fff;
   background-color: #4682B4; }
 
-/* line 812, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 813, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news .submits {
   padding-left: 0;
   margin-top: 1em; }
 
-/* line 817, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 818, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news .checkbox input {
   margin-bottom: 1em; }
 
-/* line 821, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 822, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .monthly {
   margin-top: 2em; }
 
-/* line 825, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 826, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 select {
   margin-top: 1em; }
 
-/* line 829, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 830, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .submit {
   padding: 0.5em;
   background-color: #4682B4;
@@ -888,27 +889,27 @@ select {
   margin-right: 2em;
   text-decoration: none;
   transition: all 200ms, ease; }
-  /* line 837, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 838, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit h4 {
     color: #fff;
     margin-top: 0; }
-  /* line 841, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 842, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit h4:visited {
     color: #fff; }
-  /* line 844, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+  /* line 845, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit:hover {
     background-color: #2c3e50; }
 
-/* line 849, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 850, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .payment {
   margin-bottom: 2em; }
 
-/* line 854, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 855, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .left-input, .right-input {
   width: 50%;
   float: left; }
 
-/* line 859, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+/* line 860, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 input {
   background-color: #fff; }
 

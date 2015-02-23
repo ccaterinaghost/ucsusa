@@ -737,7 +737,7 @@ body.noscript .slide-menu{
 		padding-top: 6em;
 	}
 	.nav-sixth {
-		width: 33.33333333%;
+		width: calc(1/3 * 100%);
 	}
 	.nav-sixth h3 {
 		height: 75px;
@@ -759,7 +759,7 @@ body.noscript .slide-menu{
 		padding-top: 4em;
 	}
 	.nav-sixth {
-		width: 16.66%;
+		width: calc(1/6 * 100%);
 	}
 	.nav-sixth h3 {
 		height: 100px;
