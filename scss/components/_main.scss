@@ -694,12 +694,48 @@ body.noscript .slide-menu{
 	@include landing-image("../images/web-ready/ice-1.jpg", center);
 }
 
+.ow1-pic {
+	@include landing-image("../images/web-ready/ourwork-1.jpg", center);
+}
+
+.ow2-pic {
+	@include landing-image("../images/web-ready/ourwork-2.jpg", center);
+}
+
+.ow3-pic {
+	@include landing-image("../images/web-ready/ourwork-3.jpg", center);
+}
+
 .ab-pic {
-	@include landing-image("../images/web-ready/family.jpg", center);
+	@include landing-image("../images/web-ready/family.jpg", top);
+}
+
+.ab1-pic {
+	@include landing-image("../images/web-ready/about-1.jpg", center);
+}
+
+.ab2-pic {
+	@include landing-image("../images/web-ready/about-2.jpg", center);
+}
+
+.ab3-pic {
+	@include landing-image("../images/web-ready/about-3.jpg", center);
+}
+
+.ta-pic {
+	@include landing-image("../images/web-ready/takeaction-1.jpg", center);
+}
+
+.ta1-pic {
+	@include landing-image("../images/web-ready/takeaction-2.jpg", center);
 }
 
 .don-pic {
-	@include landing-image("../images/web-ready/explosion.jpg", center);
+	@include landing-image("../images/web-ready/donate-1.jpg", center);
+}
+
+.don1-pic {
+	@include landing-image("../images/web-ready/donate-2.jpg", center);
 }
 
 .to-top {

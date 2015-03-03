@@ -9,36 +9,36 @@ SASS uses the '$' to declare variables.*/
   width: device-width;
   scale: 1; }
 
-/* line 5, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 5, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 html {
   box-sizing: border-box;
   background-color: #2c3e50;
   font-family: 'Quicksand', Arial, sans-serif; }
 
-/* line 11, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 11, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 15, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 15, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', Arial, sans-serif; }
-  /* line 19, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 19, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
-/* line 25, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 25, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 section {
   margin: 0;
   padding: 0;
   position: relative; }
-  /* line 28, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 28, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   section a {
     text-decoration: none;
     color: #fff; }
 
-/* line 36, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 36, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 h1 span {
   position: absolute !important;
   height: 1px;
@@ -46,7 +46,7 @@ h1 span {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px); }
 
-/* line 40, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 40, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .header {
   margin: 0;
   padding: 0;
@@ -56,19 +56,19 @@ h1 span {
   background-color: #fff;
   z-index: 10; }
 
-/* line 49, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 49, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .header h1 {
   text-align: center;
   margin: 0;
   padding: 0;
   top: 0.25em; }
 
-/* line 55, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 55, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .header h1 img {
   position: absolute;
   top: 0.33em; }
 
-/* line 60, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 60, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .donate-text {
   display: inline-block;
   margin-left: 0.25em;
@@ -77,23 +77,23 @@ h1 span {
   background-color: #f1c40f;
   transition: all 300ms, ease-in-out; }
 
-/* line 69, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 69, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .donate-text:hover {
   background-color: #2c3e50;
   font-weight: 400; }
 
 @media only screen and (min-width: 20em) {
-  /* line 75, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 75, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header {
     height: 6em; }
 
-  /* line 78, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 78, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .donate-text {
     padding: 1em;
     margin-top: 1.5em;
     font-size: 1em; }
 
-  /* line 83, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 83, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header .small-logo {
     display: inline-block;
     width: 200px;
@@ -103,23 +103,23 @@ h1 span {
             transform: scale(1);
     margin-top: 0.5em; }
 
-  /* line 90, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 90, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header .large-logo {
     display: none; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 96, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 96, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .donate-text {
     padding: 0.5em;
     margin-top: 1em;
     font-size: 1.5em; }
 
-  /* line 101, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 101, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header .small-logo {
     display: none; }
 
-  /* line 104, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 104, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header .large-logo {
     width: 200px;
     margin-left: -100px;
@@ -131,16 +131,16 @@ h1 span {
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 114, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 114, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header {
     height: 4em; }
 
-  /* line 117, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 117, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .donate-text {
     margin-top: 0.5em;
     font-size: 1.25em; }
 
-  /* line 121, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 121, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .header .large-logo {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
@@ -148,47 +148,47 @@ h1 span {
     margin-top: 0; }
  }
 
-/* line 130, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 130, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .toggle-btn {
   position: absolute;
   right: 1em;
   top: 0.75em; }
 
-/* line 136, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 136, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0;
   text-align: left; }
-  /* line 139, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 139, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .navigation ul li {
     list-style-type: none;
     font-size: 1.5em; }
-    /* line 142, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 142, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em;
       padding-left: 2%;
       text-decoration: none; }
 
-/* line 152, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 152, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .i-menu, .i-close {
   font-size: 2em;
   color: #2c3e50;
   transition: all 200ms, ease; }
 
-/* line 158, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 158, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .i-close {
   color: #fff; }
 
-/* line 163, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 163, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .toggle-btn:hover .i-menu {
   color: #4682B4; }
 
-/* line 169, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 169, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .toggle-btn, .close-btn {
   height: 40px;
   width: 40px; }
-  /* line 172, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 172, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .toggle-btn span, .close-btn span {
     position: absolute !important;
     height: 1px;
@@ -196,17 +196,17 @@ h1 span {
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px); }
 
-/* line 180, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 180, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .toggle-btn, .close-btn, .toggle-btn:visited, .close-btn:visited {
   color: #000; }
 
-/* line 184, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 184, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .site-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
   z-index: 100; }
-  /* line 189, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 189, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
@@ -215,21 +215,21 @@ h1 span {
         -ms-transform: translateX(0);
             transform: translateX(0);
     transition: all 300ms ease-in-out; }
-  /* line 196, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 196, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-30%);
         -ms-transform: translateX(-30%);
             transform: translateX(-30%); }
-    /* line 198, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 198, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas .toggle-btn {
       display: none; }
-  /* line 203, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 203, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] {
     overflow: visible; }
-    /* line 205, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 205, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .site-wrapper[data-state="slide-open"] .toggle-btn {
       display: none; }
-  /* line 210, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 210, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper .slide-menu {
     position: absolute;
     width: 30%;
@@ -240,71 +240,71 @@ h1 span {
     right: -30%;
     min-height: 800px; }
 
-/* line 223, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 223, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .header ul li a:hover {
   color: #4682B4; }
 
-/* line 227, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 227, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
 
 @media only screen and (min-width: 20em) {
-  /* line 234, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 234, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%); }
-  /* line 237, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 237, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper .slide-menu {
     font-size: 1.5em;
     width: 100%;
     right: -100%; }
 
-  /* line 243, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 243, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .toggle-btn {
     margin-top: 1em; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 250, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 250, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
-  /* line 253, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 253, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper .slide-menu {
     width: 50%;
     right: -50%; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 261, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 261, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .toggle-btn {
     margin-top: 0; }
 
-  /* line 265, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 265, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-30%);
         -ms-transform: translateX(-30%);
             transform: translateX(-30%); }
-  /* line 268, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 268, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .site-wrapper .slide-menu {
     font-size: 1em;
     width: 30%;
     right: -30%; }
  }
 
-/* line 277, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 277, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .current, .current:visited {
   color: #4682B4;
   font-weight: 400; }
 
-/* line 282, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 282, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .current:hover {
   color: bg2; }
 
-/* line 288, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 288, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .landing {
   width: 100%;
   background: transparent url("../images/web-ready/earth.jpg") no-repeat center center;
@@ -313,37 +313,37 @@ body.noscript .slide-menu {
   padding: 24em 0;
   float: left; }
 
-/* line 297, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 297, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .landing div {
   width: 40%;
   color: #fff;
   padding-left: 2em;
   position: absolute;
   top: 6em; }
-  /* line 303, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 303, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div h2 {
     margin: 0;
     padding: 0; }
-  /* line 306, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 306, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div p {
     margin-top: 0.5em;
     margin-bottom: 1.5em; }
-  /* line 310, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 310, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div a {
     background-color: #4682B4;
     padding: 0.5em;
     transition: all 200ms, ease; }
-  /* line 315, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 315, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div a:hover {
     background-color: #2c3e50; }
 
-/* line 320, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 320, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog-area {
   display: inline-block;
   overflow: hidden;
   float: left; }
 
-/* line 326, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 326, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog {
   margin: 0;
   float: left;
@@ -352,11 +352,11 @@ body.noscript .slide-menu {
   display: inline-block;
   position: relative; }
 
-/* line 335, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 335, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog:nth-child(n+2) {
   border-left: 3px solid #ecf0f1; }
 
-/* line 339, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 339, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog h2 {
   background-color: #4682B4;
   text-align: center;
@@ -364,23 +364,23 @@ body.noscript .slide-menu {
   font-size: 1.25em;
   color: #fff; }
 
-/* line 347, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 347, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog p {
   color: #000;
   font-size: 1em; }
 
-/* line 352, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 352, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .blog a {
   display: block;
   text-decoration: none; }
 
-/* line 357, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 357, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button-align {
   position: absolute;
   bottom: 3em;
   margin-left: 25%; }
 
-/* line 363, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 363, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button {
   text-align: center;
   width: 100px;
@@ -391,102 +391,102 @@ body.noscript .slide-menu {
   margin: 0 auto;
   transition: all 200ms, ease; }
 
-/* line 375, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 375, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button, .button:visited {
   font-size: 2.5em;
   color: #4682B4; }
 
-/* line 380, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 380, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .button:hover {
   color: #2c3e50; }
 
 @media only screen and (min-width: 20em) {
-  /* line 385, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 385, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .landing div {
     top: 8em; }
 
-  /* line 388, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 388, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 100%;
     padding: 2em 10% 1.5em; }
 
-  /* line 392, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 392, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog:nth-child(n+2) {
     border-left: none;
     border-top: 3px solid #4682B4; }
  }
 
 @media only screen and (min-width: 37.5em) {
-  /* line 399, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 399, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 50%;
     padding: 2em 5% 1.5em; }
-    /* line 402, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 402, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+1) {
       border-left: none;
       border-top: none; }
-    /* line 406, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 406, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(even) {
       border-left: 3px solid #4682B4; }
-    /* line 409, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 409, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+3) {
       border-top: 3px solid #4682B4; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 417, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 417, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .blog {
     width: 25%;
     padding: 2em 2.5% 1.5em; }
-    /* line 420, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 420, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+2) {
       border-left: 3px solid #4682B4; }
-    /* line 423, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+    /* line 423, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
     .blog:nth-child(n+1) {
       border-top: none; }
  }
 
-/* line 431, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 431, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .graph-area {
   background-color: #bdc3c7;
   float: left;
   width: 100%; }
 
-/* line 437, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 437, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area1 {
   width: 50%;
   float: left;
   text-align: right; }
 
-/* line 443, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 443, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area1 img {
   width: 80%; }
 
-/* line 447, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 447, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .graph {
   margin: 5em 0;
   position: relative; }
 
-/* line 452, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 452, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 {
   margin: 4em 0 0;
   width: 50%;
   float: left;
   padding: 0 10% 0 5%; }
 
-/* line 459, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 459, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h3 {
   display: inline-block;
   padding: 0.5em;
   color: #fff;
   background-color: #2c3e50; }
 
-/* line 466, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 466, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 p {
   margin: 0;
   padding: 0; }
 
-/* line 470, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 470, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h4 {
   background-color: #4682B4;
   color: #fff;
@@ -494,11 +494,11 @@ body.noscript .slide-menu {
   display: inline-block;
   transition: all 200ms, ease; }
 
-/* line 478, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 478, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .area2 h4:hover {
   color: #2c3e50; }
 
-/* line 484, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 484, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed {
   width: 100%;
   background: transparent url("../images/web-ready/turbine-2.jpg") no-repeat center center;
@@ -507,7 +507,7 @@ body.noscript .slide-menu {
   padding: 20em 0;
   float: left; }
 
-/* line 493, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 493, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .informed h3 {
   position: absolute;
   top: 0.5em;
@@ -516,7 +516,7 @@ body.noscript .slide-menu {
   padding: 0.5em;
   background-color: #4682B4; }
 
-/* line 504, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 504, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer {
   width: 100%;
   position: relative;
@@ -524,29 +524,29 @@ body.noscript .slide-menu {
   text-align: left;
   float: left; }
 
-/* line 512, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 512, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer-logo {
   float: left;
   height: 2.5em;
   margin-left: 1em; }
 
-/* line 518, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 518, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-right: 1em; }
 
-/* line 524, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 524, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer li {
   float: right; }
 
-/* line 528, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 528, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .social {
   color: #2c3e50;
   transition: all 200ms, ease; }
 
-/* line 533, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 533, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .social p {
   position: absolute !important;
   height: 1px;
@@ -554,16 +554,16 @@ body.noscript .slide-menu {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px); }
 
-/* line 537, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 537, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .footer li:hover .social {
   color: #4682B4; }
 
 @media only screen and (min-width: 20em) {
-  /* line 542, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 542, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer {
     height: 5em; }
 
-  /* line 545, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 545, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: inline-block;
     -webkit-transform: scale(1.5);
@@ -572,26 +572,26 @@ body.noscript .slide-menu {
     margin-left: 3em;
     margin-top: 1.25em; }
 
-  /* line 551, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 551, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     display: none; }
 
-  /* line 554, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 554, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .social {
     font-size: 2.5em; }
 
-  /* line 557, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 557, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer li {
     margin-top: 16px;
     margin-left: 20px; }
  }
 
 @media only screen and (min-width: 30em) {
-  /* line 564, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 564, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: none; }
 
-  /* line 567, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 567, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
@@ -602,11 +602,11 @@ body.noscript .slide-menu {
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 576, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 576, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer {
     height: 3em; }
 
-  /* line 579, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 579, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .small-logo {
     display: inline-block;
     -webkit-transform: scale(1);
@@ -615,21 +615,21 @@ body.noscript .slide-menu {
     margin-left: 1em;
     margin-top: 0.25em; }
 
-  /* line 585, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 585, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer .large-logo {
     display: none; }
 
-  /* line 588, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 588, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .social {
     font-size: 1.8em; }
 
-  /* line 591, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 591, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .footer li {
     margin-top: 8px;
     margin-left: 10px; }
  }
 
-/* line 599, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 599, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news {
   position: relative;
   width: 100%;
@@ -637,7 +637,7 @@ body.noscript .slide-menu {
   background-color: #ecf0f1;
   padding-bottom: 2em; }
 
-/* line 607, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 607, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h2 {
   text-align: center;
   letter-spacing: 1px;
@@ -648,7 +648,7 @@ body.noscript .slide-menu {
   color: #fff;
   background-color: #4682B4; }
 
-/* line 618, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 618, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h3 {
   letter-spacing: 1px;
   padding: 0.5em;
@@ -658,36 +658,36 @@ body.noscript .slide-menu {
   display: inline-block;
   width: 100%; }
 
-/* line 628, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 628, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news h4 {
   margin: 0;
   padding: 0;
   margin-top: 0.5em
   /* Inspect element says padding: 0; is overriding the padding on the buttons*/ }
 
-/* line 634, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 634, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p {
   margin: 0.5em 0;
   line-height: 130%; }
 
-/* line 641, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 641, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .second, .fourth, .sixth {
   background-color: #bdc3c7; }
 
-/* line 645, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 645, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news ul {
   padding-left: 20px; }
 
-/* line 649, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 649, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news li {
   margin-bottom: 0.5em; }
 
-/* line 656, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 656, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news p a, .news p a:visited, .news li a, .news li a:visited {
   color: #000;
   border-bottom: 1px solid #000; }
 
-/* line 661, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 661, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth {
   display: inline-block;
   text-align: center;
@@ -695,7 +695,7 @@ body.noscript .slide-menu {
   display: table;
   background-color: #bdc3c7; }
 
-/* line 669, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 669, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth h3 {
   display: table-cell;
   vertical-align: middle;
@@ -707,49 +707,142 @@ body.noscript .slide-menu {
   border-bottom: 10px solid #fff;
   transition: all 200ms, ease-in-out; }
 
-/* line 682, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 682, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .nav-sixth h3:hover, .nav-sixth h3:active {
   border-right: 10px solid #2c3e50;
   border-bottom: 10px solid #2c3e50; }
 
-/* line 687, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 687, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ow-landing {
   width: 100%;
   position: relative;
   background-color: #fff; }
 
-/* line 693, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 693, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ow-pic {
   width: 100%;
   background: transparent url("../images/web-ready/ice-1.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
-  z-index: 10; }
+  z-index: 10;
+  margin-bottom: -0.2em; }
 
-/* line 697, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 697, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ow1-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/ourwork-1.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 701, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ow2-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/ourwork-2.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 705, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ow3-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/ourwork-3.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 709, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .ab-pic {
   width: 100%;
-  background: transparent url("../images/web-ready/family.jpg") no-repeat center center;
+  background: transparent url("../images/web-ready/family.jpg") no-repeat center top;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
-  z-index: 10; }
+  z-index: 10;
+  margin-bottom: -0.2em; }
 
-/* line 701, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 713, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ab1-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/about-1.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 717, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ab2-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/about-2.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 721, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ab3-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/about-3.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 725, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ta-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/takeaction-1.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 729, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.ta1-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/takeaction-2.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 733, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .don-pic {
   width: 100%;
-  background: transparent url("../images/web-ready/explosion.jpg") no-repeat center center;
+  background: transparent url("../images/web-ready/donate-1.jpg") no-repeat center center;
   background-size: cover;
   display: inline-block;
   padding: 18em 0;
-  z-index: 10; }
+  z-index: 10;
+  margin-bottom: -0.2em; }
 
-/* line 705, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 737, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
+.don1-pic {
+  width: 100%;
+  background: transparent url("../images/web-ready/donate-2.jpg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  padding: 18em 0;
+  z-index: 10;
+  margin-bottom: -0.2em; }
+
+/* line 741, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top {
   text-decoration: none; }
 
-/* line 709, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 745, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top i {
   color: #2c3e50;
   bottom: 0.5em;
@@ -758,15 +851,15 @@ body.noscript .slide-menu {
   font-weight: 700;
   transition: all 200ms, ease; }
 
-/* line 718, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 754, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved .to-top i {
   color: #ecf0f1; }
 
-/* line 722, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 758, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .to-top i:hover {
   color: #4682B4; }
 
-/* line 726, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 762, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .hide p {
   position: absolute !important;
   height: 1px;
@@ -775,46 +868,46 @@ body.noscript .slide-menu {
   clip: rect(1px, 1px, 1px, 1px); }
 
 @media only screen and (min-width: 20em) {
-  /* line 731, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 767, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .to-top i {
     right: 0.5em;
     padding: 0.25em; }
 
-  /* line 735, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 771, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-jump {
     z-index: 1;
     padding-top: 6em; }
 
-  /* line 739, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 775, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth {
     width: calc(1/3 * 100%); }
 
-  /* line 742, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 778, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     height: 75px;
     font-size: 0.75em; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 749, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 785, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .to-top i {
     padding: 0.75em; }
 
-  /* line 752, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 788, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     font-size: 1em; }
  }
 
 @media only screen and (min-width: 75em) {
-  /* line 758, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 794, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-jump {
     padding-top: 4em; }
 
-  /* line 761, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 797, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth {
     width: calc(1/6 * 100%); }
 
-  /* line 764, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 800, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3 {
     height: 100px;
     font-size: 1.25em;
@@ -822,20 +915,20 @@ body.noscript .slide-menu {
         -ms-transform: scaleY(1);
             transform: scaleY(1); }
 
-  /* line 769, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 805, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .nav-sixth h3:hover {
     -webkit-transform: scaleY(1.1);
         -ms-transform: scaleY(1.1);
             transform: scaleY(1.1); }
  }
 
-/* line 776, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 812, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved {
   background-color: #666;
   color: #fff;
   text-align: center; }
 
-/* line 782, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 818, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved h3 {
   background: none;
   color: #fff;
@@ -844,11 +937,11 @@ body.noscript .slide-menu {
   padding-top: 0;
   margin-bottom: 0; }
 
-/* line 791, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 827, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .get-involved a {
   text-decoration: none; }
 
-/* line 796, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 832, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link, .involve-link:visited {
   color: #4682B4;
   font-size: 1.5em;
@@ -858,29 +951,29 @@ body.noscript .slide-menu {
   padding: 0.5em;
   font-weight: 300; }
 
-/* line 806, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 842, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .involve-link:hover {
   color: #fff;
   background-color: #4682B4; }
 
-/* line 813, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 849, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news .submits {
   padding-left: 0;
   margin-top: 1em; }
 
-/* line 818, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 854, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .news .checkbox input {
   margin-bottom: 1em; }
 
-/* line 822, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 858, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .monthly {
   margin-top: 2em; }
 
-/* line 826, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 862, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 select {
   margin-top: 1em; }
 
-/* line 830, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 866, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .submit {
   padding: 0.5em;
   background-color: #4682B4;
@@ -889,27 +982,27 @@ select {
   margin-right: 2em;
   text-decoration: none;
   transition: all 200ms, ease; }
-  /* line 838, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 874, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit h4 {
     color: #fff;
     margin-top: 0; }
-  /* line 842, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 878, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit h4:visited {
     color: #fff; }
-  /* line 845, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+  /* line 881, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
   .submit:hover {
     background-color: #2c3e50; }
 
-/* line 850, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 886, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .payment {
   margin-bottom: 2em; }
 
-/* line 855, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 891, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 .left-input, .right-input {
   width: 50%;
   float: left; }
 
-/* line 860, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/main */
+/* line 896, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/main */
 input {
   background-color: #fff; }
 
@@ -930,7 +1023,7 @@ input {
   }
 }
 */
-/* line 22, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/social-top */
+/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social-top */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "social-top";
   font-style: normal;
@@ -955,17 +1048,17 @@ input {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/social-top */
+/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social-top */
 .icon-facebook:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/social-top */
+/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social-top */
 .icon-twitter:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/social-top */
+/* line 55, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/social-top */
 .icon-level-up:before {
   content: '\e802'; }
 
@@ -987,7 +1080,7 @@ input {
   }
 }
 */
-/* line 22, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/push-menu-custom */
+/* line 22, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/push-menu-custom */
 [class^="i-"]:before, [class*=" i-"]:before {
   font-family: "push-menu-custom";
   font-style: normal;
@@ -1012,12 +1105,12 @@ input {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/push-menu-custom */
+/* line 53, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/push-menu-custom */
 .i-menu:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/rebeccawright/Documents/GD Year 3/Semester 2/Web Dev/ucsusa/scss/components/push-menu-custom */
+/* line 54, /Users/birchy009/Desktop/GD-Y3S2/Interactive Des 5/ucsusa/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
 
