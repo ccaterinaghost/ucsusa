@@ -654,8 +654,14 @@ body.noscript .slide-menu{
 .news p a:visited,
 .news li a,
 .news li a:visited {
-	color: $sec-type;
-	border-bottom: 1px solid $sec-type;
+	color: $sec-color;
+	border-bottom: 1px solid $sec-color;
+}
+
+.news p a:hover,
+.news li a:hover {
+	color: $pri-color;
+	border-bottom: 1px solid $pri-color;
 }
 
 .nav-sixth {
